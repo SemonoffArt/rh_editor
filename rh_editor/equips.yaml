@@ -1,0 +1,4 @@
+equips:
+  - {eq_name: pu977, plc_name: 991, plc_addr: 10.100.59.65, db_num: 777, db_addr: 20}
+  - {eq_name: pu978, plc_name: 991, plc_addr: 10.100.59.65, db_num: 777, db_addr: 24}
+  - {eq_name: pu979, plc_name: 992, plc_addr: 10.100.59.65, db_num: 777, db_addr: 28} 
