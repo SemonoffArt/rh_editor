@@ -1,0 +1,701 @@
+{
+    "equips": [
+        {
+            "eq_name": "pu977",
+            "plc_name": "test_plc",
+            "db_num": 777,
+            "db_addr": 20
+        },
+        {
+            "eq_name": "pu978",
+            "plc_name": "test_plc",
+            "db_num": 777,
+            "db_addr": 24
+        },
+        {
+            "eq_name": "pu979",
+            "plc_name": "test_plc",
+            "db_num": 777,
+            "db_addr": 28
+        },
+        {
+            "eq_name": "060SP358U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6115,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030TK851_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6117,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP351GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6023,
+            "db_addr": 26
+        },
+        {
+            "eq_name": "060SP352GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6024,
+            "db_addr": 26
+        },
+        {
+            "eq_name": "060SP357GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6025,
+            "db_addr": 26
+        },
+        {
+            "eq_name": "060SP358GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6115,
+            "db_addr": 26
+        },
+        {
+            "eq_name": "080SP530U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6037,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020MG221M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6078,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "010GG032U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6000,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030VS160U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6001,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030VS161M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6002,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "010BC011M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6003,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "010BC012U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6004,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "010BC015U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6005,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020BC021U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6006,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020BC022U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6007,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020BC023U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6008,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP140U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6009,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP141U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6010,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP142U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6011,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030SP180U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6012,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030SP181U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6013,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030SP182U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6014,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP840U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6015,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP841U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6016,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP842U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6017,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SP843U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6018,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP355U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6019,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP356U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6020,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP860U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6000,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP350U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6021,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP354U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6022,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP351U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6023,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP352U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6024,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP357U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6025,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050PU270U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6026,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050PU271U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6027,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050PU273U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6028,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050AG280M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6029,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050AG281M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6030,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL230M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6031,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL230M02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6032,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL230M03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6033,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL230M04_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6034,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL230M05_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6035,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL230M06_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6036,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL235M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6037,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL235M02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6038,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL235M03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6039,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL235M04_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6040,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL235M05_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6041,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL235M06_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6042,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6043,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6044,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP861U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6001,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6045,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M04_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6046,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M05_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6047,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M06_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6048,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050FL260M07_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6049,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060TN340A01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6050,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP862U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6002,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP863U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6003,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP866U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6004,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP867U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6005,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP870U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6006,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP871U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6007,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG490M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6008,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG491M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6009,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG500M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6010,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG501M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6011,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG502M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6012,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG503M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6013,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG504M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6014,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG505M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6015,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG506M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6016,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080AG507M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6017,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350AG900M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6018,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350AG901M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6019,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350AG902M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6020,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350AG903M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6021,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350AG904M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6022,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350AG905M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6023,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "090KL645A01S03_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6028,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP362U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6069,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "060SP363U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6070,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "040SP816U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6059,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SJ952M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6051,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SJ953M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6052,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SJ954M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6053,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020SJ955M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6054,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020BC031U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6075,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020CR020A02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6072,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050PU272U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6067,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "050PU274U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6068,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "040IL200A01_35_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6076,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "040IL210A01_44_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6077,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "905RP100A01_119MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6029,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "905RP100A01_120MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6030,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "905RP100A01_117MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6031,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "905RP100A01_118MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6032,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080SP460U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6033,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080SP461U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6034,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080SP600U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6035,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080SP601U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6036,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080SP580U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6038,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "040SP815U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6058,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080HT528_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6039,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "030TK850_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6116,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "020MG021M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6074,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP868U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6067,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "080PU527U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6050,
+            "db_addr": 18
+        },
+        {
+            "eq_name": "350SP869U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6068,
+            "db_addr": 18
+        }
+
+    ]
+}
