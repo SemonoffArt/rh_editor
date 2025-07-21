@@ -100,9 +100,11 @@ class RHEditor(tk.Tk):
 
         tk.Label(button_frame, text="Часы: ", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
         self.hours_var = tk.StringVar()
+        vcmd = (self.register(self.validate_hours), '%P')
         self.hours_entry = tk.Entry(
             button_frame, textvariable=self.hours_var,
-            font=("Arial", 20, "bold"), width=10
+            font=("Arial", 20, "bold"), width=10,
+            validate='key', validatecommand=vcmd
         )
         self.hours_entry.pack(side=tk.LEFT, padx=5)
 
@@ -257,6 +259,9 @@ class RHEditor(tk.Tk):
                 self.add_log("ПРЕДУПРЕЖДЕНИЕ: Введите значение в поле 'Часы'!")
                 return
             hours = float(hours_str)
+            if not (0 <= hours <= 10000):
+                self.add_log("ПРЕДУПРЕЖДЕНИЕ: Значение часов должно быть от 0 до 10000!")
+                return
             seconds = int(hours * 3600)  # Convert hours to seconds
             self.add_log(f"Подготовка записи: {hours:.2f} ч = {seconds} сек")
             # Create PLC client
@@ -291,6 +296,15 @@ class RHEditor(tk.Tk):
             self.add_log("ОШИБКА: Неверное значение в поле 'Часы'. Введите число.")
         except Exception as e:
             self.add_log(f"ОШИБКА при записи данных: {str(e)}")
+
+    def validate_hours(self, value: str) -> bool:
+        if value == '':
+            return True
+        try:
+            val = float(value)
+            return 0 <= val <= 10000
+        except ValueError:
+            return False
 
 if __name__ == '__main__':
     app = RHEditor()
