@@ -6,12 +6,14 @@ import snap7
 from snap7.util import *
 
 EQUIPS_FILE = 'equips.json'
+PLC_FILE = 'plc.json'
+
 
 class EquipViewer(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('Equipments Viewer')
-        self.geometry('700x400')
+        self.title('Редактор часов обслуживания')
+        self.geometry('800x600')
         self.equips = []
         self.filtered_equips = []
         self.selected_equip = None
@@ -22,11 +24,11 @@ class EquipViewer(tk.Tk):
         self.update_table()
 
     def load_plc_configs(self):
-        plc_file = 'plc.json'
-        if not os.path.exists(plc_file):
-            self.add_log(f'ОШИБКА: Файл {plc_file} не найден!')
+        
+        if not os.path.exists(PLC_FILE):
+            self.add_log(f'ОШИБКА: Файл {PLC_FILE} не найден!')
             return []
-        with open(plc_file, 'r', encoding='utf-8') as f:
+        with open(PLC_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
             return data.get('plc', [])
 
@@ -63,14 +65,14 @@ class EquipViewer(tk.Tk):
         self.zif_menu.bind('<<ComboboxSelected>>', self.on_zif_change)
         # --- END ZIF DROPDOWN ---
         
-        tk.Label(filter_frame, text='Фильтр по eq_name:').pack(side=tk.LEFT)
+        tk.Label(filter_frame, text='Фильтр по Tag:').pack(side=tk.LEFT)
         self.filter_var = tk.StringVar()
         self.filter_var.trace_add('write', self.on_filter_change)
         filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var)
         filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
 
         # Table
-        columns = ('eq_name', 'plc_name', 'plc_addr', 'db_num', 'db_addr')
+        columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
         self.tree = ttk.Treeview(self, columns=columns, show='headings', selectmode='browse')
         for col in columns:
             self.tree.heading(col, text=col)
@@ -87,20 +89,19 @@ class EquipViewer(tk.Tk):
         button_frame = tk.Frame(self)
         button_frame.pack(fill=tk.X, padx=10, pady=5)
         
-        self.read_button = tk.Button(button_frame, text="READ", command=self.read_plc_data)
+        self.read_button = tk.Button(button_frame, text="READ", command=self.read_plc_data, 
+                        font=("Arial", 16, "bold"), height=1, width=6)
         self.read_button.pack(side=tk.LEFT)
-        
         self.write_button = tk.Button(button_frame, text="WRITE", command=self.write_plc_data, 
-                                    bg="red", fg="white", font=("Arial", 10, "bold"))
+                        bg="red", fg="white", font=("Arial", 16, "bold"), height=1, width=6)
         self.write_button.pack(side=tk.LEFT, padx=10)
-        
-        self.result_label = tk.Label(button_frame, text="Результат: ", font=("Arial", 10, "bold"))
-        self.result_label.pack(side=tk.LEFT, padx=10)
-        
-        # Hours display
-        tk.Label(button_frame, text="Часы: ", font=("Arial", 10, "bold")).pack(side=tk.LEFT, padx=(20, 5))
+        self.result_var = tk.StringVar()
+        tk.Label(button_frame, text="Сек:", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
+        self.result_entry = tk.Entry(button_frame, textvariable=self.result_var, font=("Arial", 20 ), width=12, justify="center", state="readonly")
+        self.result_entry.pack(side=tk.LEFT, padx=(0, 20))
+        tk.Label(button_frame, text="Часы: ", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
         self.hours_var = tk.StringVar()
-        self.hours_entry = tk.Entry(button_frame, textvariable=self.hours_var, width=15)
+        self.hours_entry = tk.Entry(button_frame, textvariable=self.hours_var, font=("Arial", 20, "bold"), width=10)
         self.hours_entry.pack(side=tk.LEFT, padx=5)
         
         # Log area
@@ -144,7 +145,6 @@ class EquipViewer(tk.Tk):
             values = (
                 eq.get('eq_name', ''),
                 eq.get('plc_name', ''),
-                eq.get('plc_addr', ''),
                 eq.get('db_num', ''),
                 eq.get('db_addr', '')
             )
@@ -159,11 +159,6 @@ class EquipViewer(tk.Tk):
             # Find the selected equipment in filtered list
             for eq in self.filtered_equips:
                 if eq.get('eq_name', '') == values[0]:
-                # and 
-                    # eq.get('plc_name', '') == values[1] and
-                    # eq.get('plc_addr', '') == values[2] and
-                    # eq.get('db_num', '') == values[3] and
-                    # eq.get('db_addr', '') == values[4]):
                     self.selected_equip = eq
                     break
         else:
@@ -210,7 +205,9 @@ class EquipViewer(tk.Tk):
                 dint_value = get_dint(data, 0)
                 
                 # Update result label
-                self.result_label.config(text=f"Результат: {dint_value}")
+                self.result_entry.config(state="normal")
+                self.result_var.set(str(dint_value))
+                self.result_entry.config(state="readonly")
                 
                 # Convert seconds to hours and update hours field
                 hours = dint_value / 3600.0

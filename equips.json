@@ -68,7 +68,7 @@
         },
         {
             "eq_name": "010GG032U01_MAINT_MH",
-            "plc_name": "991",
+            "plc_name": "990",
             "db_num": 6000,
             "db_addr": 18
         },
@@ -86,13 +86,13 @@
         },
         {
             "eq_name": "010BC011M01_MAINT_MH",
-            "plc_name": "991",
+            "plc_name": "990",
             "db_num": 6003,
             "db_addr": 18
         },
         {
             "eq_name": "010BC012U01_MAINT_MH",
-            "plc_name": "991",
+            "plc_name": "990",
             "db_num": 6004,
             "db_addr": 18
         },
