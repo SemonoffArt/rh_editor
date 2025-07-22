@@ -50,28 +50,33 @@ class RHEditor(tk.Tk):
         filter_frame.pack(fill=tk.X, padx=10, pady=5)
 
         # --- ZIF DROPDOWN ---
-        tk.Label(filter_frame, text='ZIF:').pack(side=tk.LEFT, padx=(0, 5))
+        tk.Label(filter_frame, text='ЗИФ:', font=("Arial", 16)).pack(side=tk.LEFT, padx=(0, 5))
         self.zif_var = tk.StringVar()
         self.zif_var.set('Все')
         zif_values = self.get_zif_values()
-        self.zif_menu = ttk.Combobox(filter_frame, textvariable=self.zif_var, values=['Все'] + zif_values, state='readonly', width=6)
+        self.zif_menu = ttk.Combobox(filter_frame, textvariable=self.zif_var, values=['Все'] + zif_values, state='readonly', width=6, font=("Arial", 16))
         self.zif_menu.pack(side=tk.LEFT, padx=(0, 10))
         self.zif_menu.bind('<<ComboboxSelected>>', self.on_zif_change)
         # --- END ZIF DROPDOWN ---
 
-        tk.Label(filter_frame, text='Фильтр по Tag:').pack(side=tk.LEFT)
+        tk.Label(filter_frame, text='Фильтр по Tag:', font=("Arial", 16)).pack(side=tk.LEFT)
         self.filter_var = tk.StringVar()
         self.filter_var.trace_add('write', self.on_filter_change)
-        filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var)
+        filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
         filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
 
         # Table
         columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
-        self.tree = ttk.Treeview(self, columns=columns, show='headings', selectmode='browse')
+        table_frame = tk.Frame(self)
+        table_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        self.tree = ttk.Treeview(table_frame, columns=columns, show='headings', selectmode='browse')
+        vsb = tk.Scrollbar(table_frame, orient="vertical", command=self.tree.yview)
+        self.tree.configure(yscrollcommand=vsb.set)
         for col in columns:
             self.tree.heading(col, text=col)
             self.tree.column(col, width=120)
-        self.tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        vsb.pack(side=tk.RIGHT, fill=tk.Y)
 
         # Bind selection event
         self.tree.bind('<<TreeviewSelect>>', self.on_select)
@@ -168,7 +173,9 @@ class RHEditor(tk.Tk):
 
     def update_table(self) -> None:
         self.tree.delete(*self.tree.get_children())
-        for eq in self.filtered_equips:
+        # Сортировка по Tag (eq_name) по возрастанию
+        sorted_equips = sorted(self.filtered_equips, key=lambda eq: str(eq.get('eq_name', '')))
+        for eq in sorted_equips:
             values = (
                 eq.get('eq_name', ''),
                 eq.get('plc_name', ''),
