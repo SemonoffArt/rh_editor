@@ -12,7 +12,7 @@ PLC_FILE = 'plc.json'
 class RHEditor(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('Редактор часов обслуживания')
+        self.title('Редактор часов тех обслуживания')
         self.geometry('800x600')
         self.equips: list = []
         self.filtered_equips: list = []
@@ -325,7 +325,7 @@ class RHEditor(tk.Tk):
     def show_help(self):
         description = (
             "Редактор часов тех обслуживания ЗИФ 1 и 2\n\n"
-            "Список оборудования с именами тегов и адресами DBxx.DBDxx хранятся в файле equips.json\n\n"
+            "Список оборудования с именами тегов и адресами DBxx.DBDxx хранится в файле equips.json\n\n"
             "IP адреса ПЛК и настройки подключения хранятся в файле plc.json.\n\n"
             "semonoff@gmail.com \n"
             "7Art 2025\n"

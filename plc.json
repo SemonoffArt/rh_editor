@@ -67,7 +67,7 @@
         {
             "plc_name": "997",
             "plc_type": "S7-1500",
-            "plc_addr": "10.26.231.8",
+            "plc_addr": "10.26.231.9",
             "rack": 0,
             "slot": 1,
             "zif": 2
