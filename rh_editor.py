@@ -63,7 +63,15 @@ class RHEditor(tk.Tk):
         self.filter_var = tk.StringVar()
         self.filter_var.trace_add('write', self.on_filter_change)
         filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
-        filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
+        filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
+        
+        # Кнопка с вопросительным знаком в правом верхнем углу
+        self.help_button = tk.Button(
+            filter_frame, text="?", command=self.show_help,
+            height=1, width=3
+        )
+        self.help_button.pack(side=tk.RIGHT, padx=(0, 18))
+
 
         # Table
         columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
@@ -118,7 +126,7 @@ class RHEditor(tk.Tk):
             button_frame, text="WRITE", command=self.write_plc_data,
             bg="red", fg="white", font=("Arial", 16, "bold"), height=1, width=6
         )
-        self.write_button.pack(side=tk.RIGHT, padx=(0, 0))
+        self.write_button.pack(side=tk.RIGHT, padx=(0, 18))
 
         # Log area
         log_frame = tk.Frame(self)
@@ -312,6 +320,18 @@ class RHEditor(tk.Tk):
             return 0 <= val <= 10000
         except ValueError:
             return False
+
+
+    def show_help(self):
+        description = (
+            "Редактор часов тех обслуживания ЗИФ 1 и 2\n\n"
+            "Список оборудования с именами тегов и адресами DBxx.DBDxx хранятся в файле equips.json\n\n"
+            "IP адреса ПЛК и настройки подключения хранятся в файле plc.json.\n\n"
+            "semonoff@gmail.com \n"
+            "7Art 2025\n"
+
+        )
+        messagebox.showinfo("О программе", description )
 
 if __name__ == '__main__':
     app = RHEditor()
