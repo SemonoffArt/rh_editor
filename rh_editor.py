@@ -13,6 +13,7 @@ class RHEditor(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title('Редактор часов тех обслуживания')
+        self.iconbitmap(os.path.join('resources', 'icon.ico'))
         self.geometry('800x600')
         self.equips: list = []
         self.filtered_equips: list = []
