@@ -1,0 +1,76 @@
+{
+    "plc": [
+        {
+            "plc_name": "test_plc",
+            "plc_type": "S7-1200",
+            "plc_addr": "10.100.59.65",
+            "rack": 0,
+            "slot": 1,
+            "zif": 1
+        },
+        {
+            "plc_name": "990",
+            "plc_type": "S7-300",
+            "plc_addr": "10.24.101.14",
+            "rack": 0,
+            "slot": 2,
+            "zif": 1
+        },
+        {
+            "plc_name": "991",
+            "plc_type": "S7-400",
+            "plc_addr": "10.24.101.2",
+            "rack": 0,
+            "slot": 3,
+            "zif": 1
+        },
+        {
+            "plc_name": "992",
+            "plc_type": "S7-400",
+            "plc_addr": "10.24.101.4",
+            "rack": 0,
+            "slot": 3,
+            "zif": 1
+        },
+        {
+            "plc_name": "993",
+            "plc_type": "S7-1500",
+            "plc_addr": "10.25.201.11",
+            "rack": 0,
+            "slot": 1,
+            "zif": 2    
+        },
+        {
+            "plc_name": "994",
+            "plc_type": "S7-1500",
+            "plc_addr": "10.25.206.11",
+            "rack": 0,
+            "slot": 1,
+            "zif": 2
+        },
+        {
+            "plc_name": "995",
+            "plc_type": "S7-1500",
+            "plc_addr": "10.25.211.11",
+            "rack": 0,
+            "slot": 1,
+            "zif": 2
+        },
+        {
+            "plc_name": "996",
+            "plc_type": "S7-1500",
+            "plc_addr": "10.25.216.11",
+            "rack": 0,
+            "slot": 1,
+            "zif": 2
+        },
+        {
+            "plc_name": "997",
+            "plc_type": "S7-1500",
+            "plc_addr": "10.26.231.9",
+            "rack": 0,
+            "slot": 1,
+            "zif": 2
+        }
+    ]
+}

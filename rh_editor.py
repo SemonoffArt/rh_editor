@@ -2,22 +2,37 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import json
 import os
+import sys
 import snap7
 from snap7.util import *
 
-EQUIPS_FILE = 'equips.json'
-PLC_FILE = 'plc.json'
+
+def resource_path(relative_path):
+    """ Получить абсолютный путь к ресурсу, работает для dev и для PyInstaller """
+    if hasattr(sys, '_MEIPASS'):
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+EQUIPS_FILE = resource_path('equips.json')
+PLC_FILE = resource_path('plc.json')
 
 
 class RHEditor(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title('Редактор часов тех обслуживания')
-        self.iconbitmap(os.path.join('resources', 'icon.ico'))
+        try:
+            icon_path = resource_path(os.path.join('resources', 'icon.ico'))
+            self.iconbitmap(icon_path)
+        except Exception as e:
+            pass  # Не критично для не-Windows систем
         self.geometry('800x600')
         self.equips: list = []
         self.filtered_equips: list = []
         self.selected_equip = None
+        
         self.plc_configs: list = self.load_plc_configs()  # Загружаем plc.json
         self.selected_zif = None  # выбранный zif
         self.create_widgets()
@@ -27,7 +42,7 @@ class RHEditor(tk.Tk):
     # --- Работа с файлами конфигурации ---
     def load_plc_configs(self) -> list:
         if not os.path.exists(PLC_FILE):
-            self.add_log(f'ОШИБКА: Файл {PLC_FILE} не найден!')
+            # self.add_log(f'ОШИБКА: Файл {PLC_FILE} не найден!')
             return []
         with open(PLC_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
