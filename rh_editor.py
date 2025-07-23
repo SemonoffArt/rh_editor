@@ -42,7 +42,7 @@ class RHEditor(tk.Tk):
     # --- Работа с файлами конфигурации ---
     def load_plc_configs(self) -> list:
         if not os.path.exists(PLC_FILE):
-            # self.add_log(f'ОШИБКА: Файл {PLC_FILE} не найден!')
+            self.add_log(f'ОШИБКА: Файл {PLC_FILE} не найден!')
             return []
         with open(PLC_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
