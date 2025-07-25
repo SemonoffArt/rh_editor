@@ -34,7 +34,7 @@
 ## Запуск
 
 ```sh
-python rh_editor.py
+python mh_editor.py
 ```
 
 ## Формат файлов конфигурации
