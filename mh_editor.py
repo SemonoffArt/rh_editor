@@ -4,162 +4,80 @@ import json
 import os
 import sys
 import snap7
-from snap7.util import *
+from snap7.util import get_dint, set_dint
 
+# --- Константы ---
+EQUIPS_FILE = 'equips.json'
+PLC_FILE = 'plc.json'
+VERSION = '1.0.0'
+RELEASE_DATE = '2024-05-25'
+MAX_HOURS = 20000
 
 def resource_path(relative_path):
-    """ Получить абсолютный путь к ресурсу, работает для dev и для PyInstaller """
+    """Получить абсолютный путь к ресурсу (для dev и PyInstaller)."""
     if hasattr(sys, '_MEIPASS'):
         base_path = sys._MEIPASS
     else:
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-
-EQUIPS_FILE = resource_path('equips.json')
-PLC_FILE = resource_path('plc.json')
-
-VERSION = '0.9.1'
-RELEASE_DATE = '2024-05-25'
-
-
 class MHEditor(tk.Tk):
+    """Главное окно редактора часов техобслуживания."""
+
     def __init__(self):
         super().__init__()
         self.title('Редактор часов тех обслуживания')
-        try:
-            icon_path = resource_path(os.path.join('resources', 'icon.ico'))
-            self.iconbitmap(icon_path)
-        except Exception as e:
-            pass  # Не критично для не-Windows систем
+        self._set_icon()
         self.geometry('800x600')
-        self.equips: list = []
-        self.filtered_equips: list = []
+        self.equips = []
+        self.filtered_equips = []
         self.selected_equip = None
+        self.plc_configs = self.load_plc_configs()
+        self.selected_zif = None
 
-        self.plc_configs: list = self.load_plc_configs()  # Загружаем plc.json
-        self.selected_zif = None  # выбранный zif
-        self.create_widgets()
+        self._create_widgets()
         self.load_equips()
         self.update_table()
 
+    def _set_icon(self):
+        """Установить иконку приложения."""
+        try:
+            icon_path = resource_path(os.path.join('resources', 'icon.ico'))
+            self.iconbitmap(icon_path)
+        except Exception:
+            pass  # Не критично для не-Windows систем
+
     # --- Работа с файлами конфигурации ---
-    def load_plc_configs(self) -> list:
-        if not os.path.exists(PLC_FILE):
-            self.add_log(f'ОШИБКА: Файл {PLC_FILE} не найден!')
+    def load_plc_configs(self):
+        """Загрузить конфигурацию PLC из файла."""
+        path = resource_path(PLC_FILE)
+        if not os.path.exists(path):
+            self.add_log(f'ОШИБКА: Файл {path} не найден!')
             return []
-        with open(PLC_FILE, 'r', encoding='utf-8') as f:
+        with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             return data.get('plc', [])
 
-    def load_equips(self) -> None:
-        if not os.path.exists(EQUIPS_FILE):
-            self.add_log(f'ОШИБКА: Файл {EQUIPS_FILE} не найден!')
+    def load_equips(self):
+        """Загрузить список оборудования из файла."""
+        path = resource_path(EQUIPS_FILE)
+        if not os.path.exists(path):
+            self.add_log(f'ОШИБКА: Файл {path} не найден!')
             self.equips = []
             return
-        with open(EQUIPS_FILE, 'r', encoding='utf-8') as f:
+        with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             self.equips = data.get('equips', [])
         self.filtered_equips = self.equips.copy()
         self.add_log(f'Загружено {len(self.equips)} записей оборудования')
 
     # --- UI ---
-    def create_widgets(self) -> None:
-        # Filter label and entry
-        filter_frame = tk.Frame(self)
-        filter_frame.pack(fill=tk.X, padx=10, pady=5)
-
-        # --- ZIF DROPDOWN ---
-        tk.Label(filter_frame, text='ЗИФ:', font=("Arial", 16)).pack(side=tk.LEFT, padx=(0, 5))
-        self.zif_var = tk.StringVar()
-        self.zif_var.set('Все')
-        zif_values = self.get_zif_values()
-        self.zif_menu = ttk.Combobox(filter_frame, textvariable=self.zif_var, values=['Все'] + zif_values,
-                                     state='readonly', width=6, font=("Arial", 16))
-        self.zif_menu.pack(side=tk.LEFT, padx=(0, 10))
-        self.zif_menu.bind('<<ComboboxSelected>>', self.on_zif_change)
-        # --- END ZIF DROPDOWN ---
-
-        tk.Label(filter_frame, text='Фильтр по Tag:', font=("Arial", 16)).pack(side=tk.LEFT)
-        self.filter_var = tk.StringVar()
-        self.filter_var.trace_add('write', self.on_filter_change)
-        filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
-        filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
-
-        # Кнопка с вопросительным знаком в правом верхнем углу
-        self.help_button = tk.Button(
-            filter_frame, text="?", command=self.show_help,
-            height=1, width=3
-        )
-        self.help_button.pack(side=tk.RIGHT, padx=(0, 18))
-
-        # Table
-        columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
-        table_frame = tk.Frame(self)
-        table_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
-        self.tree = ttk.Treeview(table_frame, columns=columns, show='headings', selectmode='browse')
-        vsb = tk.Scrollbar(table_frame, orient="vertical", command=self.tree.yview)
-        self.tree.configure(yscrollcommand=vsb.set)
-        for col in columns:
-            self.tree.heading(col, text=col)
-            self.tree.column(col, width=120)
-        self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        vsb.pack(side=tk.RIGHT, fill=tk.Y)
-
-        # Bind selection event
-        self.tree.bind('<<TreeviewSelect>>', self.on_select)
-        # Bind double-click event
-        self.tree.bind('<Double-1>', self.on_double_click)
-
-        # Read button and result label
-        button_frame = tk.Frame(self)
-        button_frame.pack(fill=tk.X, padx=10, pady=5)
-
-        self.read_button = tk.Button(
-            button_frame, text="READ", command=self.read_plc_data,
-            font=("Arial", 16, "bold"), height=1, width=6
-        )
-        self.read_button.pack(side=tk.LEFT)
-
-        # result label and hours ...
-
-        tk.Label(button_frame, text="Сек:", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
-        self.result_var = tk.StringVar()
-        self.result_entry = tk.Entry(
-            button_frame, textvariable=self.result_var,
-            font=("Arial", 20), width=12, justify="center", state="readonly"
-        )
-        self.result_entry.pack(side=tk.LEFT, padx=(0, 20))
-
-        tk.Label(button_frame, text="Часы: ", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
-        self.hours_var = tk.StringVar()
-        vcmd = (self.register(self.validate_hours), '%P')
-        self.hours_entry = tk.Entry(
-            button_frame, textvariable=self.hours_var,
-            font=("Arial", 20, "bold"), width=10,
-            validate='key', validatecommand=vcmd
-        )
-        self.hours_entry.pack(side=tk.LEFT, padx=5)
-
-        # Кнопка WRITE теперь после поля часов
-        self.write_button = tk.Button(
-            button_frame, text="WRITE", command=self.write_plc_data,
-            bg="red", fg="white", font=("Arial", 16, "bold"), height=1, width=6
-        )
-        self.write_button.pack(side=tk.RIGHT, padx=(0, 18))
-
-        # Log area
-        log_frame = tk.Frame(self)
-        log_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
-        tk.Label(log_frame, text="Лог действий:", font=("Arial", 10, "bold")).pack(anchor=tk.W)
-        # Create text widget with scrollbar
-        text_frame = tk.Frame(log_frame)
-        text_frame.pack(fill=tk.BOTH, expand=True)
-        self.log_text = tk.Text(text_frame, height=8, wrap=tk.WORD, state=tk.DISABLED)
-        scrollbar = tk.Scrollbar(text_frame, orient=tk.VERTICAL, command=self.log_text.yview)
-        self.log_text.configure(yscrollcommand=scrollbar.set)
-        self.log_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+    def _create_widgets(self):
+        """Создать все виджеты интерфейса."""
+        self._create_filter_frame()
+        self._create_table()
+        self._create_button_frame()
+        self._create_log_area()
 
     def add_log(self, message: str) -> None:
         """Add message to log area"""
@@ -256,13 +174,14 @@ class MHEditor(tk.Tk):
             if not plc_addr:
                 self.add_log(f"ОШИБКА: Не найдены параметры PLC для '{plc_name}' в plc.json")
                 return
-            self.add_log(f"Подключение к PLC {plc_addr} (rack={rack}, slot={slot})...")
+            self.add_log(f"Подключение к PLC {plc_name} {plc_addr} (rack={rack}, slot={slot})...")
             client.connect(plc_addr, rack, slot)
             if client.get_connected():
                 # Read DINT value from DB
                 db_num = self.selected_equip['db_num']
                 db_addr = self.selected_equip['db_addr']
-                self.add_log(f"Чтение DB{db_num}.DBD{db_addr}...")
+                tag = self.selected_equip.get('eq_name', '')
+                self.add_log(f"Чтение DB{db_num}.DBD{db_addr} (Tag: {tag})...")
                 # Read 4 bytes (DINT = 32 bits = 4 bytes)
                 data = client.db_read(db_num, db_addr, 4)
                 # Convert to DINT
@@ -294,8 +213,8 @@ class MHEditor(tk.Tk):
                 self.add_log("ПРЕДУПРЕЖДЕНИЕ: Введите значение в поле 'Часы'!")
                 return
             hours = float(hours_str)
-            if not (0 <= hours <= 20000):
-                self.add_log("ПРЕДУПРЕЖДЕНИЕ: Значение часов должно быть от 0 до 20000!")
+            if not (0 <= hours <= MAX_HOURS):
+                self.add_log(f"ПРЕДУПРЕЖДЕНИЕ: Значение часов должно быть от 0 до {MAX_HOURS}!")
                 return
             seconds = int(hours * 3600)  # Convert hours to seconds
             self.add_log(f"Подготовка записи: {hours:.2f} ч = {seconds} сек")
@@ -307,13 +226,14 @@ class MHEditor(tk.Tk):
             if not plc_addr:
                 self.add_log(f"ОШИБКА: Не найдены параметры PLC для '{plc_name}' в plc.json")
                 return
-            self.add_log(f"Подключение к PLC {plc_addr} (rack={rack}, slot={slot})...")
+            self.add_log(f"Подключение к PLC {plc_name} {plc_addr} (rack={rack}, slot={slot})...")
             client.connect(plc_addr, rack, slot)
             if client.get_connected():
                 # Write DINT value to DB
                 db_num = self.selected_equip['db_num']
                 db_addr = self.selected_equip['db_addr']
-                self.add_log(f"Запись в DB{db_num}.DBD{db_addr}...")
+                tag = self.selected_equip.get('eq_name', '')
+                self.add_log(f"Запись в DB{db_num}.DBD{db_addr} (Tag: {tag})...")
                 # Convert seconds to bytes for DINT
                 data = bytearray(4)
                 set_dint(data, 0, seconds)
@@ -325,8 +245,6 @@ class MHEditor(tk.Tk):
                 self.add_log("Отключение от PLC")
                 # Read data back to confirm
                 self.read_plc_data()
-
-
             else:
                 self.add_log(f"ОШИБКА: Не удалось подключиться к PLC {plc_addr}")
         except ValueError:
@@ -339,7 +257,7 @@ class MHEditor(tk.Tk):
             return True
         try:
             val = float(value)
-            return 0 <= val <= 20000
+            return 0 <= val <= MAX_HOURS
         except ValueError:
             return False
 
@@ -354,6 +272,94 @@ class MHEditor(tk.Tk):
             "7Art 2025\n"
         )
         messagebox.showinfo("О программе", description)
+
+    def _create_filter_frame(self):
+        filter_frame = tk.Frame(self)
+        filter_frame.pack(fill=tk.X, padx=10, pady=5)
+
+        tk.Label(filter_frame, text='ЗИФ:', font=("Arial", 16)).pack(side=tk.LEFT, padx=(0, 5))
+        self.zif_var = tk.StringVar()
+        self.zif_var.set('Все')
+        zif_values = self.get_zif_values()
+        self.zif_menu = ttk.Combobox(
+            filter_frame, textvariable=self.zif_var, values=['Все'] + zif_values,
+            state='readonly', width=6, font=("Arial", 16)
+        )
+        self.zif_menu.pack(side=tk.LEFT, padx=(0, 10))
+        self.zif_menu.bind('<<ComboboxSelected>>', self.on_zif_change)
+
+        tk.Label(filter_frame, text='Фильтр по Tag:', font=("Arial", 16)).pack(side=tk.LEFT)
+        self.filter_var = tk.StringVar()
+        self.filter_var.trace_add('write', self.on_filter_change)
+        filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
+        filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
+
+        self.help_button = tk.Button(
+            filter_frame, text="?", command=self.show_help,
+            height=1, width=3
+        )
+        self.help_button.pack(side=tk.RIGHT, padx=(0, 18))
+
+    def _create_table(self):
+        columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
+        table_frame = tk.Frame(self)
+        table_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        self.tree = ttk.Treeview(table_frame, columns=columns, show='headings', selectmode='browse')
+        vsb = tk.Scrollbar(table_frame, orient="vertical", command=self.tree.yview)
+        self.tree.configure(yscrollcommand=vsb.set)
+        for col in columns:
+            self.tree.heading(col, text=col)
+            self.tree.column(col, width=120)
+        self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        vsb.pack(side=tk.RIGHT, fill=tk.Y)
+        self.tree.bind('<<TreeviewSelect>>', self.on_select)
+        self.tree.bind('<Double-1>', self.on_double_click)
+
+    def _create_button_frame(self):
+        button_frame = tk.Frame(self)
+        button_frame.pack(fill=tk.X, padx=10, pady=5)
+
+        self.read_button = tk.Button(
+            button_frame, text="READ", command=self.read_plc_data,
+            font=("Arial", 16, "bold"), height=1, width=6
+        )
+        self.read_button.pack(side=tk.LEFT)
+
+        tk.Label(button_frame, text="Сек:", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
+        self.result_var = tk.StringVar()
+        self.result_entry = tk.Entry(
+            button_frame, textvariable=self.result_var,
+            font=("Arial", 20), width=12, justify="center", state="readonly"
+        )
+        self.result_entry.pack(side=tk.LEFT, padx=(0, 20))
+
+        tk.Label(button_frame, text="Часы: ", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
+        self.hours_var = tk.StringVar()
+        vcmd = (self.register(self.validate_hours), '%P')
+        self.hours_entry = tk.Entry(
+            button_frame, textvariable=self.hours_var,
+            font=("Arial", 20, "bold"), width=10,
+            validate='key', validatecommand=vcmd
+        )
+        self.hours_entry.pack(side=tk.LEFT, padx=5)
+
+        self.write_button = tk.Button(
+            button_frame, text="WRITE", command=self.write_plc_data,
+            bg="red", fg="white", font=("Arial", 16, "bold"), height=1, width=6
+        )
+        self.write_button.pack(side=tk.RIGHT, padx=(0, 18))
+
+    def _create_log_area(self):
+        log_frame = tk.Frame(self)
+        log_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        tk.Label(log_frame, text="Лог действий:", font=("Arial", 10, "bold")).pack(anchor=tk.W)
+        text_frame = tk.Frame(log_frame)
+        text_frame.pack(fill=tk.BOTH, expand=True)
+        self.log_text = tk.Text(text_frame, height=8, wrap=tk.WORD, state=tk.DISABLED)
+        scrollbar = tk.Scrollbar(text_frame, orient=tk.VERTICAL, command=self.log_text.yview)
+        self.log_text.configure(yscrollcommand=scrollbar.set)
+        self.log_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
 
 if __name__ == '__main__':
