@@ -15,6 +15,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
+
 EQUIPS_FILE = resource_path('equips.json')
 PLC_FILE = resource_path('plc.json')
 
@@ -35,7 +36,7 @@ class MHEditor(tk.Tk):
         self.equips: list = []
         self.filtered_equips: list = []
         self.selected_equip = None
-        
+
         self.plc_configs: list = self.load_plc_configs()  # Загружаем plc.json
         self.selected_zif = None  # выбранный zif
         self.create_widgets()
@@ -73,7 +74,8 @@ class MHEditor(tk.Tk):
         self.zif_var = tk.StringVar()
         self.zif_var.set('Все')
         zif_values = self.get_zif_values()
-        self.zif_menu = ttk.Combobox(filter_frame, textvariable=self.zif_var, values=['Все'] + zif_values, state='readonly', width=6, font=("Arial", 16))
+        self.zif_menu = ttk.Combobox(filter_frame, textvariable=self.zif_var, values=['Все'] + zif_values,
+                                     state='readonly', width=6, font=("Arial", 16))
         self.zif_menu.pack(side=tk.LEFT, padx=(0, 10))
         self.zif_menu.bind('<<ComboboxSelected>>', self.on_zif_change)
         # --- END ZIF DROPDOWN ---
@@ -83,14 +85,13 @@ class MHEditor(tk.Tk):
         self.filter_var.trace_add('write', self.on_filter_change)
         filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
         filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
-        
+
         # Кнопка с вопросительным знаком в правом верхнем углу
         self.help_button = tk.Button(
             filter_frame, text="?", command=self.show_help,
             height=1, width=3
         )
         self.help_button.pack(side=tk.RIGHT, padx=(0, 18))
-
 
         # Table
         columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
@@ -342,7 +343,6 @@ class MHEditor(tk.Tk):
         except ValueError:
             return False
 
-
     def show_help(self):
         description = (
             f"Редактор часов тех обслуживания ЗИФ 1 и 2\n\n"
@@ -353,8 +353,9 @@ class MHEditor(tk.Tk):
             "semonoff@gmail.com \n"
             "7Art 2025\n"
         )
-        messagebox.showinfo("О программе", description )
+        messagebox.showinfo("О программе", description)
+
 
 if __name__ == '__main__':
     app = MHEditor()
-    app.mainloop() 
+    app.mainloop()

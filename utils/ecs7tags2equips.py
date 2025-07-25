@@ -14,7 +14,7 @@ import re
 import yaml
 import csv
 
-# Абсолютный путь к директории c скриптом
+# Абсолютный путь к директории с скриптом
 _PRG_DIR = Path(__file__).parent.absolute()
 
 _RES_DIR = _PRG_DIR / 'resources'
