@@ -10,7 +10,7 @@ from snap7.util import get_dint, set_dint
 EQUIPS_FILE = 'equips.json'
 PLC_FILE = 'plc.json'
 VERSION = '1.0.0'
-RELEASE_DATE = '2024-05-25'
+RELEASE_DATE = '2025-05-25'
 MAX_HOURS = 20000
 
 def resource_path(relative_path):
