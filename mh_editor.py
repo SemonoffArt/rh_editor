@@ -125,6 +125,7 @@ class MHEditor(tk.Tk):
             values = (
                 eq.get('eq_name', ''),
                 eq.get('plc_name', ''),
+                eq.get('description', ''),
                 eq.get('db_num', ''),
                 eq.get('db_addr', '')
             )
@@ -301,15 +302,29 @@ class MHEditor(tk.Tk):
         self.help_button.pack(side=tk.RIGHT, padx=(0, 18))
 
     def _create_table(self):
-        columns = ('Tag', 'plc_name', 'db_num', 'db_addr')
+        columns = ('Tag', 'plc_name', 'description', 'db_num', 'db_addr')
         table_frame = tk.Frame(self)
         table_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
         self.tree = ttk.Treeview(table_frame, columns=columns, show='headings', selectmode='browse')
         vsb = tk.Scrollbar(table_frame, orient="vertical", command=self.tree.yview)
         self.tree.configure(yscrollcommand=vsb.set)
-        for col in columns:
-            self.tree.heading(col, text=col)
-            self.tree.column(col, width=120)
+        
+        # Set column headings and widths
+        self.tree.heading('Tag', text='Tag')
+        self.tree.column('Tag', width=200)  # Fit content like "020BM110A01_MAINT20_MH"
+        
+        self.tree.heading('plc_name', text='plc_name')
+        self.tree.column('plc_name', width=50)  # Header size
+        
+        self.tree.heading('description', text='description')
+        self.tree.column('description', width=300)  # 30 characters
+        
+        self.tree.heading('db_num', text='db_num')
+        self.tree.column('db_num', width=50)  # Header size
+        
+        self.tree.heading('db_addr', text='db_addr')
+        self.tree.column('db_addr', width=50)  # Header size
+        
         self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         vsb.pack(side=tk.RIGHT, fill=tk.Y)
         self.tree.bind('<<TreeviewSelect>>', self.on_select)
