@@ -28,7 +28,8 @@ def main():
                     "eq_name": row.get("Designation", ""),
                     "plc_name": str(row.get("IOType_0", ""))[0:3],
                     "db_num": int(row.get("IOType_2", None)),
-                    "db_addr": int(row.get("IOType_3", None)) + 16
+                    "db_addr": int(row.get("IOType_3", None)) + 16,
+                    "description": row.get("DefaultText", "")
                 }
                 result.append(equip)
             except Exception as e:
