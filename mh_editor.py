@@ -5,6 +5,7 @@ import os
 import sys
 import snap7
 from snap7.util import get_dint, set_dint
+from datetime import datetime
 
 # --- Константы ---
 EQUIPS_FILE = 'equips.json'
@@ -81,8 +82,9 @@ class MHEditor(tk.Tk):
 
     def add_log(self, message: str) -> None:
         """Add message to log area"""
+        timestamp = datetime.now().strftime("%d.%m.%Y %H:%M:%S")
         self.log_text.config(state=tk.NORMAL)
-        self.log_text.insert(tk.END, f"{message}\n")
+        self.log_text.insert(tk.END, f"[{timestamp}] {message}\n")
         self.log_text.see(tk.END)  # Scroll to bottom
         self.log_text.config(state=tk.DISABLED)
 
