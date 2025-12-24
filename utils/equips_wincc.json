@@ -1,0 +1,228 @@
+{
+    "equips": [
+        {
+            "eq_name": "020SP140GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6009,
+            "db_addr": 26,
+            "description": "Гофра SP140"
+        },
+        {
+            "eq_name": "020SP141GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6010,
+            "db_addr": 26,
+            "description": "Гофра SP141"
+        },
+        {
+            "eq_name": "020SP142GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6011,
+            "db_addr": 26,
+            "description": "Гофра SP142"
+        },
+        {
+            "eq_name": "020SP140_142GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6055,
+            "db_addr": 18,
+            "description": "Гофра SP140_142"
+        },
+        {
+            "eq_name": "020SP141_142GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6056,
+            "db_addr": 18,
+            "description": "Гофра SP141_142"
+        },
+        {
+            "eq_name": "020SP840_Y19GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6015,
+            "db_addr": 26,
+            "description": "Гофра SP840_Y19"
+        },
+        {
+            "eq_name": "020SP840_VS160GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6015,
+            "db_addr": 30,
+            "description": "Гофра SP840_VS160"
+        },
+        {
+            "eq_name": "020SP842_Y16GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6017,
+            "db_addr": 26,
+            "description": "Гофра SP842_Y16"
+        },
+        {
+            "eq_name": "020SP842_VS160GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6017,
+            "db_addr": 30,
+            "description": "Гофра SP842_VS160"
+        },
+        {
+            "eq_name": "020SP841_Y19GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6016,
+            "db_addr": 26,
+            "description": "Гофра SP841_Y19"
+        },
+        {
+            "eq_name": "020SP841_VS161GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6016,
+            "db_addr": 30,
+            "description": "Гофра SP841_VS161"
+        },
+        {
+            "eq_name": "020SP843_Y16GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6018,
+            "db_addr": 26,
+            "description": "Гофра SP843_Y16"
+        },
+        {
+            "eq_name": "020SP843_VS161GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6018,
+            "db_addr": 30,
+            "description": "Гофра SP843_VS161"
+        },
+        {
+            "eq_name": "020MC150GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6806,
+            "db_addr": 22,
+            "description": "Гофра Замена с учетом разворота"
+        },
+        {
+            "eq_name": "020MC150GK02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6806,
+            "db_addr": 26,
+            "description": "Гофра Когда требуется разворот"
+        },
+        {
+            "eq_name": "020MC150GK03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6806,
+            "db_addr": 30,
+            "description": "Гофра Замена без разворота"
+        },
+        {
+            "eq_name": "020MC151GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6906,
+            "db_addr": 22,
+            "description": "Гофра Замена с учетом разворота"
+        },
+        {
+            "eq_name": "020MC151GK02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6906,
+            "db_addr": 26,
+            "description": "Гофра Когда требуется разворот"
+        },
+        {
+            "eq_name": "020MC151GK03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6906,
+            "db_addr": 30,
+            "description": "Гофра Замена без разворота"
+        },
+        {
+            "eq_name": "030VS160GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6001,
+            "db_addr": 22,
+            "description": "Гофра Замена с учетом разворота"
+        },
+        {
+            "eq_name": "030VS160GK02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6001,
+            "db_addr": 26,
+            "description": "Гофра Когда требуется разворот"
+        },
+        {
+            "eq_name": "030VS160GK03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6001,
+            "db_addr": 30,
+            "description": "Гофра Замена без разворота"
+        },
+        {
+            "eq_name": "030VS161GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6002,
+            "db_addr": 22,
+            "description": "Гофра Замена с учетом разворота"
+        },
+        {
+            "eq_name": "030VS161GK02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6002,
+            "db_addr": 26,
+            "description": "Гофра Когда требуется разворот"
+        },
+        {
+            "eq_name": "030VS161GK03_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6002,
+            "db_addr": 30,
+            "description": "Гофра Замена без разворота"
+        },
+        {
+            "eq_name": "030SP180GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6012,
+            "db_addr": 26,
+            "description": "Гофра SP180"
+        },
+        {
+            "eq_name": "030SP181GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6013,
+            "db_addr": 26,
+            "description": "Гофра SP181"
+        },
+        {
+            "eq_name": "030SP182GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6014,
+            "db_addr": 26,
+            "description": "Гофра SP182"
+        },
+        {
+            "eq_name": "030SP180_182GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6119,
+            "db_addr": 18,
+            "description": "Гофра SP180_182"
+        },
+        {
+            "eq_name": "030SP181_182GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6120,
+            "db_addr": 18,
+            "description": "Гофра SP181_182"
+        },
+        {
+            "eq_name": "030SP180_182GK01_MAINT_MH(Distributor)",
+            "plc_name": "991",
+            "db_num": 6119,
+            "db_addr": 22,
+            "description": "Гофра SP180_182(распред.)"
+        },
+        {
+            "eq_name": "030SP181_182GK01_MAINT_MH(Distributor)",
+            "plc_name": "991",
+            "db_num": 6120,
+            "db_addr": 22,
+            "description": "Гофра SP181_182(распред.)"
+        }
+    ]
+}

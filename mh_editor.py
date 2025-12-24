@@ -10,8 +10,8 @@ from datetime import datetime
 # --- Константы ---
 EQUIPS_FILE = 'equips.json'
 PLC_FILE = 'plc.json'
-VERSION = '1.0.0'
-RELEASE_DATE = '2025-05-25'
+VERSION = '1.1.0'
+RELEASE_DATE = '2025-12-21'
 MAX_HOURS = 20000
 
 def resource_path(relative_path):
@@ -115,7 +115,10 @@ class MHEditor(tk.Tk):
             plc_names = [plc.get('plc_name') for plc in self.plc_configs if str(plc.get('zif')) == selected_zif]
             equips = [eq for eq in self.equips if eq.get('plc_name') in plc_names]
         if filter_text:
-            equips = [eq for eq in equips if filter_text in str(eq.get('eq_name', '')).lower()]
+            # Фильтруем по tag и description
+            equips = [eq for eq in equips if 
+                     filter_text in str(eq.get('eq_name', '')).lower() or 
+                     filter_text in str(eq.get('description', '')).lower()]
         self.filtered_equips = equips
         self.update_table()
 
@@ -291,7 +294,7 @@ class MHEditor(tk.Tk):
         self.zif_menu.pack(side=tk.LEFT, padx=(0, 10))
         self.zif_menu.bind('<<ComboboxSelected>>', self.on_zif_change)
 
-        tk.Label(filter_frame, text='Фильтр по Tag:', font=("Arial", 16)).pack(side=tk.LEFT)
+        tk.Label(filter_frame, text='Фильтр по Tag/Description:', font=("Arial", 16)).pack(side=tk.LEFT)
         self.filter_var = tk.StringVar()
         self.filter_var.trace_add('write', self.on_filter_change)
         filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
@@ -304,7 +307,7 @@ class MHEditor(tk.Tk):
         self.help_button.pack(side=tk.RIGHT, padx=(0, 18))
 
     def _create_table(self):
-        columns = ('Tag', 'plc_name', 'description', 'db_num', 'db_addr')
+        columns = ('tag', 'plc_name', 'description', 'db_num', 'db_addr')
         table_frame = tk.Frame(self)
         table_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
         self.tree = ttk.Treeview(table_frame, columns=columns, show='headings', selectmode='browse')
@@ -312,8 +315,8 @@ class MHEditor(tk.Tk):
         self.tree.configure(yscrollcommand=vsb.set)
         
         # Set column headings and widths
-        self.tree.heading('Tag', text='Tag')
-        self.tree.column('Tag', width=200)  # Fit content like "020BM110A01_MAINT20_MH"
+        self.tree.heading('tag', text='tag')
+        self.tree.column('tag', width=200)  # Fit content like "020BM110A01_MAINT20_MH"
         
         self.tree.heading('plc_name', text='plc_name')
         self.tree.column('plc_name', width=50)  # Header size

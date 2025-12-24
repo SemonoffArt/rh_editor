@@ -1051,6 +1051,20 @@
             "description": "Maintenance, h"
         },
         {
+            "eq_name": "060TN341A01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6118,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080TN451A01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6069,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
             "eq_name": "350SP868U01_MAINT_MH",
             "plc_name": "992",
             "db_num": 6067,
@@ -1103,20 +1117,6 @@
             "eq_name": "350SP869U01_MAINT_MH",
             "plc_name": "992",
             "db_num": 6068,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060TN341A01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6118,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "080TN451A01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6069,
             "db_addr": 18,
             "description": "Maintenance, h"
         }

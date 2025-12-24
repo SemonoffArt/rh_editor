@@ -5,119 +5,119 @@
             "plc_name": "993",
             "db_num": 8006,
             "db_addr": 18,
-            "description": "BC015U01 Maint_MH"
+            "description": "ЛК15. Счетчик ТО"
         },
         {
             "eq_name": "2010BF110U01Maint_MH",
             "plc_name": "997",
             "db_num": 8004,
             "db_addr": 18,
-            "description": "BF110U01 Maint_MH"
+            "description": "ККД2. Пит.BF-110. Счетчик ТО"
         },
         {
             "eq_name": "2010CR150M01Maint_MH",
             "plc_name": "997",
             "db_num": 8005,
             "db_addr": 18,
-            "description": "CR150M01 Maint_MH"
+            "description": "ККД2. CR150. Счетчик ТО"
         },
         {
             "eq_name": "2010CV120M01Maint_MH",
             "plc_name": "997",
             "db_num": 8000,
             "db_addr": 18,
-            "description": "CV120 Maint_MH"
+            "description": "ККД2. ЛК 120. Счетчик ТО"
         },
         {
             "eq_name": "2010CV180U01Maint_MH",
             "plc_name": "997",
             "db_num": 8001,
             "db_addr": 18,
-            "description": "CV180U01 Maint_MH"
+            "description": "ККД2. ЛК180. Счетчик ТО"
         },
         {
             "eq_name": "2010CV300U01Maint_MH",
             "plc_name": "997",
             "db_num": 8002,
             "db_addr": 18,
-            "description": "CV300U01 Maint_MH"
+            "description": "ККД2. ЛК300. Счетчик ТО"
         },
         {
             "eq_name": "2010OB190M01Maint_MH",
             "plc_name": "997",
             "db_num": 8007,
             "db_addr": 18,
-            "description": "MG021M01 Maint_MH"
+            "description": "2010OV190M01 Счетчик ТО"
         },
         {
             "eq_name": "2010SC130U01Maint_MH",
             "plc_name": "997",
             "db_num": 8003,
             "db_addr": 18,
-            "description": "SC130U01 Maint_MH"
+            "description": "ККД 2. Грохот SC-130. Моточасы"
         },
         {
             "eq_name": "2015PU027U01Maint_MH",
             "plc_name": "997",
             "db_num": 8010,
             "db_addr": 18,
-            "description": "Maint_MH"
+            "description": "ККД2. Аспирация. PU-027. Счетчик ТО"
         },
         {
             "eq_name": "2015PU028U01Maint_MH",
             "plc_name": "997",
             "db_num": 8011,
             "db_addr": 18,
-            "description": "Maint_MH"
+            "description": "ККД2. Аспирация. PU-028. Счетчик ТО"
         },
         {
             "eq_name": "2015PU035U01Maint_MH",
             "plc_name": "997",
             "db_num": 8009,
             "db_addr": 18,
-            "description": "Maint_MH"
+            "description": "ККД2. Аспирация.PU-035 насос гидроподпора. Счетчик ТО"
         },
         {
             "eq_name": "2015PU040U01Maint_MH",
             "plc_name": "997",
             "db_num": 8012,
             "db_addr": 18,
-            "description": "Maint_MH"
+            "description": "ККД2. Отопление. PU-040. Счетчик ТО"
         },
         {
             "eq_name": "2015PU041M01Maint_MH",
             "plc_name": "997",
             "db_num": 8013,
             "db_addr": 18,
-            "description": "Maint_MH"
+            "description": "ККД2. Отопление. PU-041. Счетчик ТО"
         },
         {
             "eq_name": "2015PU042M01Maint_MH",
             "plc_name": "997",
             "db_num": 8014,
             "db_addr": 18,
-            "description": "Maint_MH"
+            "description": "ККД2. Отопление. PU-042. Счетчик ТО циркуляционного насоса гликоля"
         },
         {
             "eq_name": "2020BC021U01Maint_MH",
             "plc_name": "993",
             "db_num": 8007,
             "db_addr": 18,
-            "description": "BC021U01 Maint_MH"
+            "description": "BC021U01 Счетчик ТО"
         },
         {
             "eq_name": "2020BC022U01Maint_MH",
             "plc_name": "993",
             "db_num": 8008,
             "db_addr": 18,
-            "description": "BC022U01 Maint_MH"
+            "description": "BC022U01 Счетчик ТО"
         },
         {
             "eq_name": "2020BC023U01Maint_MH",
             "plc_name": "993",
             "db_num": 8009,
             "db_addr": 18,
-            "description": "BC023U01 Maint_MH"
+            "description": "BC023U01 Счетчик ТО"
         },
         {
             "eq_name": "2020BM110A01Maint_1_MH",
@@ -152,7 +152,7 @@
             "plc_name": "993",
             "db_num": 8060,
             "db_addr": 22,
-            "description": "BM110A01 Maint_14_MH"
+            "description": "BM110 Maint_14_MH Замена футеровки "
         },
         {
             "eq_name": "2020BM110A01Maint_2_MH",
@@ -243,7 +243,7 @@
             "plc_name": "993",
             "db_num": 8064,
             "db_addr": 22,
-            "description": "BM11 Maint_14_MH"
+            "description": "BM110 Maint_14_MH Замена футеровки "
         },
         {
             "eq_name": "2020BM120A01Maint_2_MH",
@@ -306,2163 +306,2163 @@
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_10",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_3",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_4",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_5",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_6",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_7",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_8",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_9",
             "plc_name": "993",
             "db_num": 8093,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_1",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_10",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_2",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_3",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_4",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_5",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_6",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_7",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_8",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y02Maint_MH_9",
             "plc_name": "993",
             "db_num": 8094,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_1",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_10",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_2",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_3",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_4",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_5",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_6",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_7",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_8",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y03Maint_MH_9",
             "plc_name": "993",
             "db_num": 8095,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_1",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_10",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_2",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_3",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_4",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_5",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_6",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_7",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_8",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y04Maint_MH_9",
             "plc_name": "993",
             "db_num": 8096,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_1",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_10",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_2",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_3",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_4",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_5",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_6",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_7",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_8",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y05Maint_MH_9",
             "plc_name": "993",
             "db_num": 8097,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_1",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_10",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_2",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_3",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_4",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_5",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_6",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_7",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_8",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y06Maint_MH_9",
             "plc_name": "993",
             "db_num": 8098,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_1",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_10",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_2",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_3",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_4",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_5",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_6",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_7",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_8",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC150Y07Maint_MH_9",
             "plc_name": "993",
             "db_num": 8099,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_1",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_10",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_3",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_4",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_5",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_6",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_7",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_8",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y01Maint_MH_9",
             "plc_name": "993",
             "db_num": 8100,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_1",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_10",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_2",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_3",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_4",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_5",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_6",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_7",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_8",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y02Maint_MH_9",
             "plc_name": "993",
             "db_num": 8101,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_1",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_10",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_2",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_3",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_4",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_5",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_6",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_7",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_8",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y03Maint_MH_9",
             "plc_name": "993",
             "db_num": 8102,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_1",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_10",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_2",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_3",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_4",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_5",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_6",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_7",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_8",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y04Maint_MH_9",
             "plc_name": "993",
             "db_num": 8103,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_1",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_10",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_2",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_3",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_4",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_5",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_6",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_7",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_8",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y05Maint_MH_9",
             "plc_name": "993",
             "db_num": 8104,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_1",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_10",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_2",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_3",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_4",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_5",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_6",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_7",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_8",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y06Maint_MH_9",
             "plc_name": "993",
             "db_num": 8105,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_1",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 20,
-            "description": "Maint_MH_1"
+            "description": "Труба слива Счетчик ТО_1"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_10",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 56,
-            "description": "Maint_MH_10"
+            "description": "Футеровка низ Счетчик ТО_10"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_2",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 24,
-            "description": "Maint_MH_2"
+            "description": "Адаптер слива Счетчик ТО_2"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_3",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 28,
-            "description": "Maint_MH_3"
+            "description": "Сливная насадка Счетчик ТО_3"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_4",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 32,
-            "description": "Maint_MH_4"
+            "description": "Адаптер питания  Счетчик ТО_4"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_5",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 36,
-            "description": "Maint_MH_5"
+            "description": "Патрубок питания Счетчик ТО_5"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_6",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 40,
-            "description": "Maint_MH_6"
+            "description": "Футеровка улиты Счетчик ТО_6"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_7",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 44,
-            "description": "Maint_MH_7"
+            "description": "Футеровка верх Счетчик ТО_7"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_8",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 48,
-            "description": "Maint_MH_8"
+            "description": "Футеровка середина Счетчик ТО_8"
         },
         {
             "eq_name": "2020MC151Y07Maint_MH_9",
             "plc_name": "993",
             "db_num": 8106,
             "db_addr": 52,
-            "description": "Maint_MH_9"
+            "description": "Футеровка низ Счетчик ТО_9"
         },
         {
             "eq_name": "2020MG021M01Maint_MH",
             "plc_name": "993",
             "db_num": 8069,
             "db_addr": 18,
-            "description": "MG021M01 Maint_MH"
+            "description": "MG021M01 Счетчик ТО"
         },
         {
             "eq_name": "2020ML060A01Maint_1_MH",
             "plc_name": "993",
             "db_num": 8053,
             "db_addr": 18,
-            "description": "ML060A01 Maint_1_MH"
+            "description": "ML060A01 Часы наработки_1_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_10_MH",
             "plc_name": "993",
             "db_num": 8055,
             "db_addr": 22,
-            "description": "ML060A01 Maint_10_MH"
+            "description": "ML060A01 Часы наработки_10_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_11_MH",
             "plc_name": "993",
             "db_num": 8055,
             "db_addr": 26,
-            "description": "ML060A01 Maint_11_MH"
+            "description": "ML060A01 Часы наработки_11_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_12_MH",
             "plc_name": "993",
             "db_num": 8055,
             "db_addr": 30,
-            "description": "ML060A01 Maint_12_MH"
+            "description": "ML060A01 Часы наработки_12_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_14_MH",
             "plc_name": "993",
             "db_num": 8056,
             "db_addr": 22,
-            "description": "ML060A01 Maint_14_MH"
+            "description": "ML060 Часы наработки_14_MH Барабан"
         },
         {
             "eq_name": "2020ML060A01Maint_15_MH",
             "plc_name": "993",
             "db_num": 8056,
             "db_addr": 26,
-            "description": "ML060A01 Maint_15_MH"
+            "description": "ML060 Часы наработки_15_MH  загруз торец"
         },
         {
             "eq_name": "2020ML060A01Maint_2_MH",
             "plc_name": "993",
             "db_num": 8053,
             "db_addr": 22,
-            "description": "ML060A01 Maint_2_MH"
+            "description": "ML060A01 Часы наработки_2_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_3_MH",
             "plc_name": "993",
             "db_num": 8053,
             "db_addr": 26,
-            "description": "ML060A01 Maint_3_MH"
+            "description": "ML060A01 Часы наработки_3_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_4_MH",
             "plc_name": "993",
             "db_num": 8053,
             "db_addr": 30,
-            "description": "ML060A01 Maint_4_MH"
+            "description": "ML060A01 Часы наработки_4_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_5_MH",
             "plc_name": "993",
             "db_num": 8054,
             "db_addr": 18,
-            "description": "ML060A01 Maint_5_MH"
+            "description": "ML060A01 Часы наработки_5_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_6_MH",
             "plc_name": "993",
             "db_num": 8054,
             "db_addr": 22,
-            "description": "ML060A01 Maint_6_MH"
+            "description": "ML060A01 Часы наработки_6_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_7_MH",
             "plc_name": "993",
             "db_num": 8054,
             "db_addr": 26,
-            "description": "ML060A01 Maint_7_MH"
+            "description": "ML060A01 Часы наработки_7_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_8_MH",
             "plc_name": "993",
             "db_num": 8054,
             "db_addr": 30,
-            "description": "ML060A01 Maint_8_MH"
+            "description": "ML060A01 Часы наработки_8_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_9_MH",
             "plc_name": "993",
             "db_num": 8055,
             "db_addr": 18,
-            "description": "ML060A01 Maint_9_MH"
+            "description": "ML060A01 Часы наработки_9_MH"
         },
         {
             "eq_name": "2020SJ952M01Maint_MH",
             "plc_name": "993",
             "db_num": 8070,
             "db_addr": 18,
-            "description": "SJ952M01 Maint_MH"
+            "description": "SJ952M01 Счетчик ТО"
         },
         {
             "eq_name": "2020SJ953M01Maint_MH",
             "plc_name": "993",
             "db_num": 8071,
             "db_addr": 18,
-            "description": "SJ953M01 Maint_MH"
+            "description": "SJ953M01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP140U01Maint_MH",
             "plc_name": "993",
             "db_num": 8023,
             "db_addr": 18,
-            "description": "SP140U01 Maint_MH"
+            "description": "SP140U01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP140U01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8023,
             "db_addr": 22,
-            "description": "SP140U01 Maint_MH_2"
+            "description": "SP140U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2020SP141U01Maint_MH",
             "plc_name": "993",
             "db_num": 8024,
             "db_addr": 18,
-            "description": "SP141U01 Maint_MH"
+            "description": "SP141U01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP141U01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8024,
             "db_addr": 22,
-            "description": "SP141U01 Maint_MH_2"
+            "description": "SP141U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2020SP142U01Maint_MH",
             "plc_name": "993",
             "db_num": 8025,
             "db_addr": 18,
-            "description": "SP142U01 Maint_MH"
+            "description": "SP142U01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP142U01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8025,
             "db_addr": 22,
-            "description": "SP142U01 Maint_MH_2"
+            "description": "SP142U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2020SP840U01Maint_MH",
             "plc_name": "993",
             "db_num": 8029,
             "db_addr": 18,
-            "description": "SP840U01 Maint_MH"
+            "description": "SP840U01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP841U01Maint_MH",
             "plc_name": "993",
             "db_num": 8030,
             "db_addr": 18,
-            "description": "SP841U01 Maint_MH"
+            "description": "SP841U01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP842U01Maint_MH",
             "plc_name": "993",
             "db_num": 8031,
             "db_addr": 18,
-            "description": "SP842U01 Maint_MH"
+            "description": "SP842U01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP843U01Maint_MH",
             "plc_name": "993",
             "db_num": 8032,
             "db_addr": 18,
-            "description": "SP843U01 Maint_MH"
+            "description": "SP843U01 Счетчик ТО"
         },
         {
             "eq_name": "2030SP180U01Maint_MH",
             "plc_name": "993",
             "db_num": 8026,
             "db_addr": 18,
-            "description": "SP180U01 Maint_MH"
+            "description": "SP180U01 Счетчик ТО"
         },
         {
             "eq_name": "2030SP181U01Maint_MH",
             "plc_name": "993",
             "db_num": 8027,
             "db_addr": 18,
-            "description": "SP181U01 Maint_MH"
+            "description": "SP181U01 Счетчик ТО"
         },
         {
             "eq_name": "2030SP182U01Maint_MH",
             "plc_name": "993",
             "db_num": 8028,
             "db_addr": 18,
-            "description": "SP182U01 Maint_MH"
+            "description": "SP182U01 Счетчик ТО"
         },
         {
             "eq_name": "2030TK850Maint_MH",
             "plc_name": "993",
             "db_num": 8089,
             "db_addr": 18,
-            "description": "Distributor, Slurry Flow Maint_MH"
+            "description": "Distributor, Slurry Flow Счетчик ТО"
         },
         {
             "eq_name": "2030TK851Maint_MH",
             "plc_name": "993",
             "db_num": 8090,
             "db_addr": 18,
-            "description": "Distributor, Slurry Flow Maint_MH"
+            "description": "Distributor, Slurry Flow Счетчик ТО"
         },
         {
             "eq_name": "2030VS160M01Maint_MH",
             "plc_name": "993",
             "db_num": 8002,
             "db_addr": 18,
-            "description": "VS160M01 Maint_MH"
+            "description": "VS160M01 Счетчик ТО"
         },
         {
             "eq_name": "2030VS161M01Maint_MH",
             "plc_name": "993",
             "db_num": 8003,
             "db_addr": 18,
-            "description": "VS161M01 Maint_MH"
+            "description": "VS161M01 Счетчик ТО"
         },
         {
             "eq_name": "2040IL200A02C61Maint_MH",
             "plc_name": "993",
             "db_num": 8084,
             "db_addr": 18,
-            "description": "IL02C61 Maint_MH"
+            "description": "IL02C61 PP103 Счетчик ТО"
         },
         {
             "eq_name": "2040IL210A02C61Maint_MH",
             "plc_name": "993",
             "db_num": 8085,
             "db_addr": 18,
-            "description": "IL210A02C61 Maint_MH"
+            "description": "IL210A02C61 PP203 Счетчик ТО"
         },
         {
             "eq_name": "2040IL220A02C61Maint_MH",
             "plc_name": "993",
             "db_num": 8086,
             "db_addr": 18,
-            "description": "IL22C61 Maint_MH"
+            "description": "IL22C61 PP303 Счетчик ТО"
         },
         {
             "eq_name": "2050AG280M01Maint_MH",
             "plc_name": "993",
             "db_num": 8067,
             "db_addr": 18,
-            "description": "AG280M01 Maint_MH"
+            "description": "AG280M01 Счетчик ТО"
         },
         {
             "eq_name": "2050AG281M01Maint_MH",
             "plc_name": "993",
             "db_num": 8068,
             "db_addr": 18,
-            "description": "AG281M01 Maint_MH"
+            "description": "AG281M01 Счетчик ТО"
         },
         {
             "eq_name": "2050FL230M01Maint_MH",
             "plc_name": "993",
             "db_num": 8035,
             "db_addr": 18,
-            "description": "FL230M01 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL230M01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8035,
             "db_addr": 22,
-            "description": "FL230M01 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL230M02Maint_MH",
             "plc_name": "993",
             "db_num": 8036,
             "db_addr": 18,
-            "description": "FL230M02 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL230M02Maint_MH_2",
             "plc_name": "993",
             "db_num": 8036,
             "db_addr": 22,
-            "description": "FL230M02 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL230M03Maint_MH",
             "plc_name": "993",
             "db_num": 8037,
             "db_addr": 18,
-            "description": "FL230M03 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL230M03Maint_MH_2",
             "plc_name": "993",
             "db_num": 8037,
             "db_addr": 22,
-            "description": "FL230M03 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL230M04Maint_MH",
             "plc_name": "993",
             "db_num": 8038,
             "db_addr": 18,
-            "description": "FL230M04 Maint_MH"
+            "description": "FL230M04 Счетчик ТО"
         },
         {
             "eq_name": "2050FL230M04Maint_MH_2",
             "plc_name": "993",
             "db_num": 8038,
             "db_addr": 22,
-            "description": "FL230M04 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL230M05Maint_MH",
             "plc_name": "993",
             "db_num": 8039,
             "db_addr": 18,
-            "description": "FL230M05 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL230M05Maint_MH_2",
             "plc_name": "993",
             "db_num": 8039,
             "db_addr": 22,
-            "description": "FL230M05 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL230M06Maint_MH",
             "plc_name": "993",
             "db_num": 8040,
             "db_addr": 18,
-            "description": "FL230M06 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL230M06Maint_MH_2",
             "plc_name": "993",
             "db_num": 8040,
             "db_addr": 22,
-            "description": "FL230M06 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL230M07Maint_MH",
             "plc_name": "993",
             "db_num": 8041,
             "db_addr": 18,
-            "description": "FL230M07 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL230M07Maint_MH_2",
             "plc_name": "993",
             "db_num": 8041,
             "db_addr": 22,
-            "description": "FL230M07 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M01Maint_MH",
             "plc_name": "993",
             "db_num": 8042,
             "db_addr": 18,
-            "description": "FL235M01 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M01Maint_MH_2",
             "plc_name": "993",
             "db_num": 8042,
             "db_addr": 22,
-            "description": "FL235M01 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M02Maint_MH",
             "plc_name": "993",
             "db_num": 8043,
             "db_addr": 18,
-            "description": "FL235M02 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M02Maint_MH_2",
             "plc_name": "993",
             "db_num": 8043,
             "db_addr": 22,
-            "description": "FL235M02 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M03Maint_MH",
             "plc_name": "993",
             "db_num": 8044,
             "db_addr": 18,
-            "description": "FL235M03 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M03Maint_MH_2",
             "plc_name": "993",
             "db_num": 8044,
             "db_addr": 22,
-            "description": "FL235M03 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M04Maint_MH",
             "plc_name": "993",
             "db_num": 8045,
             "db_addr": 18,
-            "description": "FL235M04 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M04Maint_MH_2",
             "plc_name": "993",
             "db_num": 8045,
             "db_addr": 22,
-            "description": "FL235M04 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M05Maint_MH",
             "plc_name": "993",
             "db_num": 8046,
             "db_addr": 18,
-            "description": "FL235M05 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M05Maint_MH_2",
             "plc_name": "993",
             "db_num": 8046,
             "db_addr": 22,
-            "description": "FL235M05 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M06Maint_MH",
             "plc_name": "993",
             "db_num": 8047,
             "db_addr": 18,
-            "description": "FL235M06 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M06Maint_MH_2",
             "plc_name": "993",
             "db_num": 8047,
             "db_addr": 22,
-            "description": "FL235M06 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL235M07Maint_MH",
             "plc_name": "993",
             "db_num": 8048,
             "db_addr": 18,
-            "description": "FL235M07 Maint_MH"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL235M07Maint_MH_2",
             "plc_name": "993",
             "db_num": 8048,
             "db_addr": 22,
-            "description": "FL235M07 Maint_MH_2"
+            "description": "Замена масла"
         },
         {
             "eq_name": "2050FL260M01Maint_MH",
             "plc_name": "993",
             "db_num": 8049,
             "db_addr": 18,
-            "description": "FL260M01 Maint_MH"
+            "description": "FL260M01 Счетчик ТО"
         },
         {
             "eq_name": "2050FL260M02Maint_MH",
             "plc_name": "993",
             "db_num": 8050,
             "db_addr": 18,
-            "description": "FL260M02 Maint_MH"
+            "description": "FL260M02 Счетчик ТО"
         },
         {
             "eq_name": "2050FL260M03Maint_MH",
             "plc_name": "993",
             "db_num": 8051,
             "db_addr": 18,
-            "description": "FL260M03 Maint_MH"
+            "description": "FL260M03 Счетчик ТО"
         },
         {
             "eq_name": "2050FL260M04Maint_MH",
             "plc_name": "993",
             "db_num": 8052,
             "db_addr": 18,
-            "description": "FL260M04 Maint_MH"
+            "description": "FL260M04 Счетчик ТО"
         },
         {
             "eq_name": "2050FL260M05Maint_MH",
             "plc_name": "993",
             "db_num": 8088,
             "db_addr": 18,
-            "description": "FL260M04 Maint_MH"
+            "description": "FL260M05 Счетчик ТО"
         },
         {
             "eq_name": "2050PU262U01Maint_MH",
             "plc_name": "993",
             "db_num": 8017,
             "db_addr": 18,
-            "description": "PU262U01 Maint_MH"
+            "description": "PU262U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU263U01Maint_MH",
             "plc_name": "993",
             "db_num": 8018,
             "db_addr": 18,
-            "description": "PU263U01 Maint_MH"
+            "description": "PU263U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU270U01Maint_MH",
             "plc_name": "993",
             "db_num": 8011,
             "db_addr": 18,
-            "description": "PU270U01 Maint_MH"
+            "description": "PU270U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU271U01Maint_MH",
             "plc_name": "993",
             "db_num": 8012,
             "db_addr": 18,
-            "description": "PU271U01 Maint_MH"
+            "description": "PU271U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU272U01Maint_MH",
             "plc_name": "993",
             "db_num": 8013,
             "db_addr": 18,
-            "description": "PU272U01 Maint_MH"
+            "description": "PU272U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU274U01Maint_MH",
             "plc_name": "993",
             "db_num": 8014,
             "db_addr": 18,
-            "description": "PU274U01 Maint_MH"
+            "description": "PU274U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU275U01Maint_MH",
             "plc_name": "993",
             "db_num": 8015,
             "db_addr": 18,
-            "description": "PU275U01 Maint_MH"
+            "description": "PU275U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU276U01Maint_MH",
             "plc_name": "993",
             "db_num": 8016,
             "db_addr": 18,
-            "description": "PU276U01 Maint_MH"
+            "description": "PU276U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU278U01Maint_MH",
             "plc_name": "993",
             "db_num": 8019,
             "db_addr": 18,
-            "description": "PU278U01 Maint_MH"
+            "description": "PU278U01 Счетчик ТО"
         },
         {
             "eq_name": "2050PU279U01Maint_MH",
             "plc_name": "993",
             "db_num": 8020,
             "db_addr": 18,
-            "description": "PU279U01 Maint_MH"
+            "description": "PU279U01 Счетчик ТО"
         },
         {
             "eq_name": "2050SP812U01Maint_MH",
             "plc_name": "993",
             "db_num": 8091,
             "db_addr": 18,
-            "description": "Ball Charger SM, Machine State"
+            "description": "SP812U01 Счетчик ТО"
         },
         {
             "eq_name": "2050SP813U01Maint_MH",
             "plc_name": "993",
             "db_num": 8092,
             "db_addr": 18,
-            "description": "Ball Charger SM, Feeder Step"
+            "description": "SP813U01 Счетчик ТО"
         },
         {
             "eq_name": "2050SP815U01Maint_MH",
             "plc_name": "993",
             "db_num": 8021,
             "db_addr": 18,
-            "description": "SP815U01 Maint_MH"
+            "description": "SP815U01 Счетчик ТО"
         },
         {
             "eq_name": "2050SP816U01Maint_MH",
             "plc_name": "993",
             "db_num": 8022,
             "db_addr": 18,
-            "description": "SP816U01 Maint_MH"
+            "description": "SP816U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP355U01Maint_MH",
             "plc_name": "993",
             "db_num": 8033,
             "db_addr": 18,
-            "description": "SP355U01 Maint_MH"
+            "description": "SP355U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP356U01Maint_MH",
             "plc_name": "993",
             "db_num": 8034,
             "db_addr": 18,
-            "description": "SP356U01 Maint_MH"
+            "description": "SP356U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP360U01Maint_MH",
             "plc_name": "996",
             "db_num": 8000,
             "db_addr": 18,
-            "description": "SP360U01 Maint_MH"
+            "description": "SP360U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP360U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8000,
             "db_addr": 22,
-            "description": "SP360U01 Maint_MH_2"
+            "description": "SP360U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP360U01Maint_MH_3",
             "plc_name": "996",
             "db_num": 8000,
             "db_addr": 26,
-            "description": "SP360U01 Maint_MH_3 Compensator"
+            "description": "SP360U01 Счетчик ТО_3 Компенсатор"
         },
         {
             "eq_name": "2060SP361U01Maint_MH",
             "plc_name": "996",
             "db_num": 8001,
             "db_addr": 18,
-            "description": "SP361U01 Maint_MH"
+            "description": "SP361U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP361U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8001,
             "db_addr": 22,
-            "description": "SP361U01 Maint_MH_2"
+            "description": "SP361U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP361U01Maint_MH_3",
             "plc_name": "996",
             "db_num": 8001,
             "db_addr": 26,
-            "description": "SP361U01 Maint_MH_2"
+            "description": "SP361U01 Счетчик ТО_2 Compensator"
         },
         {
             "eq_name": "2060SP362U01Maint_MH",
             "plc_name": "996",
             "db_num": 8002,
             "db_addr": 18,
-            "description": "SP362U01 Maint_MH"
+            "description": "SP362U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP362U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8002,
             "db_addr": 22,
-            "description": "SP362U01 Maint_MH_2"
+            "description": "SP362U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP362U01Maint_MH_3",
             "plc_name": "996",
             "db_num": 8002,
             "db_addr": 26,
-            "description": "SP362U01 Maint_MH_3"
+            "description": "SP362U01 Счетчик ТО_3 Compensator"
         },
         {
             "eq_name": "2060SP363U01Maint_MH",
             "plc_name": "996",
             "db_num": 8003,
             "db_addr": 18,
-            "description": "SP363U01 Maint_MH"
+            "description": "SP363U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP363U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8003,
             "db_addr": 22,
-            "description": "SP363U01 Maint_MH_2"
+            "description": "SP363U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP364U01Maint_MH",
             "plc_name": "996",
             "db_num": 8004,
             "db_addr": 18,
-            "description": "SP364U01 Maint_MH"
+            "description": "SP364U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP364U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8004,
             "db_addr": 22,
-            "description": "SP364U01 Maint_MH_2"
+            "description": "SP364U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP364U01Maint_MH_3",
             "plc_name": "996",
             "db_num": 8004,
             "db_addr": 26,
-            "description": "SP364U01 Maint_MH_3 Compensator"
+            "description": "SP364U01 Счетчик ТО_3 Компенсатор"
         },
         {
             "eq_name": "2060SP365U01Maint_MH",
             "plc_name": "996",
             "db_num": 8005,
             "db_addr": 18,
-            "description": "SP365U01 Maint_MH"
+            "description": "SP365U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP365U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8005,
             "db_addr": 22,
-            "description": "SP365U01 Maint_MH_2"
+            "description": "SP365U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP365U01Maint_MH_3",
             "plc_name": "996",
             "db_num": 8005,
             "db_addr": 26,
-            "description": "SP365U01 Maint_MH_3 Compensator"
+            "description": "SP365U01 Счетчик ТО_3 Компенсатор"
         },
         {
             "eq_name": "2060SP366U01Maint_MH",
             "plc_name": "996",
             "db_num": 8006,
             "db_addr": 18,
-            "description": "SP366U01 Maint_MH"
+            "description": "SP366U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP366U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8006,
             "db_addr": 22,
-            "description": "SP366U01 Maint_MH_2"
+            "description": "SP366U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP367U01Maint_MH",
             "plc_name": "996",
             "db_num": 8007,
             "db_addr": 18,
-            "description": "SP367U01 Maint_MH"
+            "description": "SP367U01 Счетчик ТО"
         },
         {
             "eq_name": "2060SP367U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8007,
             "db_addr": 22,
-            "description": "SP367U01 Maint_MH_2"
+            "description": "SP367U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2060SP367U01Maint_MH_3",
             "plc_name": "996",
             "db_num": 8007,
             "db_addr": 26,
-            "description": "SP367U01 Maint_MH_3 Compensator"
+            "description": "SP367U01 Счетчик ТО_3 Компенсатор"
         },
         {
             "eq_name": "2060TN340A01Maint_MH",
             "plc_name": "996",
             "db_num": 8012,
             "db_addr": 18,
-            "description": "TN340A01 Maint_MH"
+            "description": "TN340A01 Счетчик ТО"
         },
         {
             "eq_name": "2060TN341A01M04Maint_MH",
             "plc_name": "996",
             "db_num": 8013,
             "db_addr": 18,
-            "description": "Ball Charger SM, "
+            "description": "Флокулянт Мешалка TN341"
         },
         {
             "eq_name": "2065PU887U01Maint_MH",
             "plc_name": "993",
             "db_num": 8065,
             "db_addr": 18,
-            "description": "PU887U01 Maint_MH"
+            "description": "PU887U01 Счетчик ТО"
         },
         {
             "eq_name": "2065PU888U01Maint_MH",
             "plc_name": "993",
             "db_num": 8066,
             "db_addr": 18,
-            "description": "PU888U01 Maint_MH"
+            "description": "PU888U01 Счетчик ТО"
         },
         {
             "eq_name": "2065PU889U01Maint_MH",
             "plc_name": "996",
             "db_num": 8008,
             "db_addr": 18,
-            "description": "PU889U01 Maint_MH"
+            "description": "PU889U01 Счетчик ТО"
         },
         {
             "eq_name": "2065PU889U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8008,
             "db_addr": 22,
-            "description": "PU889U01 Maint_MH_2"
+            "description": "PU889U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2065PU890U01Maint_MH",
             "plc_name": "996",
             "db_num": 8009,
             "db_addr": 18,
-            "description": "PU890U01 Maint_MH"
+            "description": "PU890U01 Счетчик ТО"
         },
         {
             "eq_name": "2065PU890U01Maint_MH_2",
             "plc_name": "996",
             "db_num": 8009,
             "db_addr": 22,
-            "description": "PU890U01 Maint_MH_2"
+            "description": "PU890U01 Счетчик ТО_2"
         },
         {
             "eq_name": "2065PU891U01Maint_MH",
             "plc_name": "996",
             "db_num": 8010,
             "db_addr": 18,
-            "description": "PU891U01 Maint_MH"
+            "description": "PU891U01 Счетчик ТО"
         },
         {
             "eq_name": "2065PU892U01Maint_MH",
             "plc_name": "996",
             "db_num": 8011,
             "db_addr": 18,
-            "description": "PU892U01 Maint_MH"
+            "description": "PU892U01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG490M01Maint_MH",
             "plc_name": "994",
             "db_num": 8000,
             "db_addr": 18,
-            "description": "AG490M01 Maint_MH"
+            "description": "AG490M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG491M01Maint_MH",
             "plc_name": "994",
             "db_num": 8001,
             "db_addr": 18,
-            "description": "AG491M01 Maint_MH"
+            "description": "AG491M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG500M01Maint_MH",
             "plc_name": "994",
             "db_num": 8002,
             "db_addr": 18,
-            "description": "AG500M01 Maint_MH"
+            "description": "AG500M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG501M01Maint_MH",
             "plc_name": "994",
             "db_num": 8003,
             "db_addr": 18,
-            "description": "AG501M01 Maint_MH"
+            "description": "AG501M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG502M01Maint_MH",
             "plc_name": "994",
             "db_num": 8004,
             "db_addr": 18,
-            "description": "AG502M01 Maint_MH"
+            "description": "AG502M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG503M01Maint_MH",
             "plc_name": "994",
             "db_num": 8005,
             "db_addr": 18,
-            "description": "AG503M01 Maint_MH"
+            "description": "AG503M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG504M01Maint_MH",
             "plc_name": "994",
             "db_num": 8006,
             "db_addr": 18,
-            "description": "AG504M01 Maint_MH"
+            "description": "AG504M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG505M01Maint_MH",
             "plc_name": "994",
             "db_num": 8007,
             "db_addr": 18,
-            "description": "AG505M01 Maint_MH"
+            "description": "AG505M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG506M01Maint_MH",
             "plc_name": "994",
             "db_num": 8008,
             "db_addr": 18,
-            "description": "AG506M01 Maint_MH"
+            "description": "AG506M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG507M01Maint_MH",
             "plc_name": "994",
             "db_num": 8009,
             "db_addr": 18,
-            "description": "AG507M01 Maint_MH"
+            "description": "AG507M01 Счетчик ТО"
         },
         {
             "eq_name": "2080AG508M01Maint_MH",
             "plc_name": "994",
             "db_num": 8010,
             "db_addr": 18,
-            "description": "AG508M01 Maint_MH"
+            "description": "AG508M01 Счетчик ТО"
         },
         {
             "eq_name": "2080PU521U01Maint_MH",
             "plc_name": "994",
             "db_num": 8012,
             "db_addr": 18,
-            "description": "PU521U01 Maint_MH"
+            "description": "PU521U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP241U01Maint_MH",
             "plc_name": "994",
             "db_num": 8028,
             "db_addr": 18,
-            "description": "SP241U01 Maint_MH"
+            "description": "SP241U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP242U01Maint_MH",
             "plc_name": "994",
             "db_num": 8029,
             "db_addr": 18,
-            "description": "SP242U01 Maint_MH"
+            "description": "SP242U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP251U01Maint_MH",
             "plc_name": "994",
             "db_num": 8030,
             "db_addr": 18,
-            "description": "SP251U01 Maint_MH"
+            "description": "SP251U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP252U01Maint_MH",
             "plc_name": "994",
             "db_num": 8031,
             "db_addr": 18,
-            "description": "SP252U01 Maint_MH"
+            "description": "SP252U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP460U01Maint_MH",
             "plc_name": "994",
             "db_num": 8013,
             "db_addr": 18,
-            "description": "SP460U01 Maint_MH"
+            "description": "SP460U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP461U01Maint_MH",
             "plc_name": "994",
             "db_num": 8014,
             "db_addr": 18,
-            "description": "SP461U01 Maint_MH"
+            "description": "SP461U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP530U01Maint_MH",
             "plc_name": "994",
             "db_num": 8015,
             "db_addr": 18,
-            "description": "SP530U01 Maint_MH"
+            "description": "SP530U01 Счетчик ТО"
         },
         {
             "eq_name": "2080SP580U01Maint_MH",
             "plc_name": "994",
             "db_num": 8016,
             "db_addr": 18,
-            "description": "SP580U01 Maint_MH"
+            "description": "SP580U01 Счетчик ТО"
         },
         {
             "eq_name": "2080TN450A01Maint_MH",
             "plc_name": "994",
             "db_num": 8011,
             "db_addr": 18,
-            "description": "TN450A01 Maint_MH"
+            "description": "TN450A01 Счетчик ТО"
         },
         {
             "eq_name": "2080TN451A01M04_STMaint_MH",
             "plc_name": "994",
             "db_num": 8052,
             "db_addr": 18,
-            "description": "Ball Charger SM, "
+            "description": "Флокулянт Мешалка TN451"
         },
         {
             "eq_name": "2090KL645M01Maint_MH",
             "plc_name": "995",
             "db_num": 8001,
             "db_addr": 18,
-            "description": "KL645M01 Maint_MH"
+            "description": "KL645M01 Счетчик ТО"
         },
         {
             "eq_name": "2090PU736Maint_MH",
             "plc_name": "995",
             "db_num": 8000,
             "db_addr": 18,
-            "description": "PU736 Maint_MH"
+            "description": "PU736 Счетчик ТО"
         },
         {
             "eq_name": "2350AG900M01Maint_MH",
             "plc_name": "994",
             "db_num": 8017,
             "db_addr": 18,
-            "description": "AG900M01 Maint_MH"
+            "description": "AG900M01 Счетчик ТО"
         },
         {
             "eq_name": "2350AG901M01Maint_MH",
             "plc_name": "994",
             "db_num": 8018,
             "db_addr": 18,
-            "description": "AG901M01 Maint_MH"
+            "description": "AG901M01 Счетчик ТО"
         },
         {
             "eq_name": "2350AG902M01Maint_MH",
             "plc_name": "994",
             "db_num": 8019,
             "db_addr": 18,
-            "description": "AG902M01 Maint_MH"
+            "description": "AG902M01 Счетчик ТО"
         },
         {
             "eq_name": "2350AG903M01Maint_MH",
             "plc_name": "994",
             "db_num": 8020,
             "db_addr": 18,
-            "description": "AG903M01 Maint_MH"
+            "description": "AG903M01 Счетчик ТО"
         },
         {
             "eq_name": "2350AG904M01Maint_MH",
             "plc_name": "994",
             "db_num": 8021,
             "db_addr": 18,
-            "description": "AG904M01 Maint_MH"
+            "description": "AG904M01 Счетчик ТО"
         },
         {
             "eq_name": "2350AG905M01Maint_MH",
             "plc_name": "994",
             "db_num": 8022,
             "db_addr": 18,
-            "description": "AG905M01 Maint_MH"
+            "description": "AG905M01 Счетчик ТО"
         },
         {
             "eq_name": "2350AG906M01Maint_MH",
             "plc_name": "994",
             "db_num": 8023,
             "db_addr": 18,
-            "description": "AG906M01 Maint_MH"
+            "description": "AG906M01 Счетчик ТО"
         },
         {
             "eq_name": "2350SP860U01Maint_MH",
             "plc_name": "994",
             "db_num": 8024,
             "db_addr": 18,
-            "description": "SP860U01 Maint_MH"
+            "description": "SP860U01 Счетчик ТО"
         },
         {
             "eq_name": "2350SP861U01Maint_MH",
             "plc_name": "994",
             "db_num": 8025,
             "db_addr": 18,
-            "description": "SP861U01 Maint_MH"
+            "description": "SP861U01 Счетчик ТО"
         },
         {
             "eq_name": "2350SP864U01Maint_MH",
             "plc_name": "994",
             "db_num": 8026,
             "db_addr": 18,
-            "description": "SP864U01 Maint_MH"
+            "description": "SP864U01 Счетчик ТО"
         },
         {
             "eq_name": "2350SP865U01Maint_MH",
             "plc_name": "994",
             "db_num": 8027,
             "db_addr": 18,
-            "description": "SP865U01 Maint_MH"
+            "description": "SP865U01 Счетчик ТО"
         },
         {
             "eq_name": "2900AG910A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8045,
             "db_addr": 18,
-            "description": "AG910A01M01 Maint_MH"
+            "description": "AG910A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2900AG914A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8046,
             "db_addr": 18,
-            "description": "AG914A01M01 Maint_MH"
+            "description": "AG914A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2910AG980A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8047,
             "db_addr": 18,
-            "description": "AG980A01M01 Maint_MH"
+            "description": "AG980A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2910AG983A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8048,
             "db_addr": 18,
-            "description": "AG983A01M01 Maint_MH"
+            "description": "AG983A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2915AG399A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8043,
             "db_addr": 18,
-            "description": "AG399A01M01 Maint_MH"
+            "description": "AG399A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2915AG400A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8044,
             "db_addr": 18,
-            "description": "AG400A01M01 Maint_MH"
+            "description": "AG400A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2915PU407M01Maint_MH",
             "plc_name": "994",
             "db_num": 8038,
             "db_addr": 18,
-            "description": "PU407M01 Maint_MH"
+            "description": "PU407M01 Счетчик ТО"
         },
         {
             "eq_name": "2915PU408M01Maint_MH",
             "plc_name": "994",
             "db_num": 8039,
             "db_addr": 18,
-            "description": "PU408M01 Maint_MH"
+            "description": "PU408M01 Счетчик ТО"
         },
         {
             "eq_name": "2915PU409M01Maint_MH",
             "plc_name": "994",
             "db_num": 8040,
             "db_addr": 18,
-            "description": "PU409M01 Maint_MH"
+            "description": "PU409M01 Счетчик ТО"
         },
         {
             "eq_name": "2915PU410M01Maint_MH",
             "plc_name": "994",
             "db_num": 8041,
             "db_addr": 18,
-            "description": "PU410M01 Maint_MH"
+            "description": "PU410M01 Счетчик ТО"
         },
         {
             "eq_name": "2915PU411M01Maint_MH",
             "plc_name": "994",
             "db_num": 8042,
             "db_addr": 18,
-            "description": "PU411M01 Maint_MH"
+            "description": "PU411M01 Счетчик ТО"
         },
         {
             "eq_name": "2920AG370A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8049,
             "db_addr": 18,
-            "description": "AG370A01M01 Maint_MH"
+            "description": "AG370A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2920AG373A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8050,
             "db_addr": 18,
-            "description": "AG373A01M01 Maint_MH"
+            "description": "AG373A01M01 Счетчик ТО"
         },
         {
             "eq_name": "2930AG605A01M01Maint_MH",
             "plc_name": "994",
             "db_num": 8051,
             "db_addr": 18,
-            "description": "AG605A01M01 Maint_MH"
+            "description": "AG605A01M01 Счетчик ТО"
         }
     ]
 }
