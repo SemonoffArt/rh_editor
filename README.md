@@ -72,16 +72,43 @@
    cd rh_editor
    ```
 
-2. **Установите зависимости:**
+2. **Создайте виртуальное окружение:**
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Активируйте виртуальное окружение:**
+   
+   **Windows (PowerShell):**
+   ```powershell
+   .\venv\Scripts\Activate.ps1
+   ```
+   
+   *При ошибке политики выполнения скриптов выполните:*
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+   
+   **Windows (CMD):**
+   ```cmd
+   venv\Scripts\activate.bat
+   ```
+   
+   **Linux/macOS:**
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. **Установите зависимости:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Подготовьте файлы конфигурации:**
+5. **Подготовьте файлы конфигурации:**
    - Убедитесь, что файлы `equips.json` и `plc.json` присутствуют
    - Настройте подключения к ПЛК и сопоставления оборудования
 
-4. **Запустите приложение:**
+6. **Запустите приложение:**
    ```bash
    python mh_editor.py
    ```
