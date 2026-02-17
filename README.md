@@ -195,10 +195,77 @@ rh_editor/
 
 ### Сборка исполняемого файла
 
-Для создания автономного исполняемого файла:
+Для создания автономного исполняемого файла (.exe) используется инструмент `auto-py-to-exe` с графическим интерфейсом.
+
+#### Установка auto-py-to-exe
 
 ```bash
-pyinstaller --onefile --windowed --icon=resources/icon.ico mh_editor.py
+pip install auto-py-to-exe
+```
+
+#### Запуск интерфейса сборки
+
+```bash
+auto-py-to-exe
+```
+
+Откроется браузерный интерфейс для настройки параметров сборки.
+
+#### Конфигурация сборки
+
+**Основные настройки:**
+
+1. **Script Location:**
+   - Выберите файл: `mh_editor.py`
+
+2. **Onefile:**
+   - Выберите: `One File` (создаст единый .exe файл)
+
+3. **Console Window:**
+   - Выберите: `Window Based (hide the console)` — приложение откроется без консоли
+
+4. **Icon:**
+   - Укажите путь: `resources/icon.ico`
+
+**Добавление файлов данных (Add Data):**
+
+В разделе **Additional Files** добавьте файлы конфигурации:
+
+```
+equips.json;.
+plc.json;.
+resources;resources
+```
+
+**Добавление бинарных файлов (Add Binary):**
+
+⚠️ **Важно!** Для корректной работы библиотеки `snap7` необходимо добавить нативную DLL:
+
+```
+venv\Lib\site-packages\snap7\lib\snap7.dll;snap7\lib
+```
+
+*Без добавления `snap7.dll` приложение не сможет подключиться к ПЛК.*
+
+**Сборка:**
+
+После настройки всех параметров:
+1. Нажмите кнопку **CONVERT .PY TO .EXE** внизу страницы
+2. Дождитесь завершения процесса сборки
+3. Готовый файл `mh_editor.exe` появится в папке `output/`
+
+#### Альтернативный способ (PyInstaller CLI)
+
+Для сборки через командную строку:
+
+```bash
+pyinstaller --onefile --windowed \
+  --icon=resources/icon.ico \
+  --add-data "equips.json;." \
+  --add-data "plc.json;." \
+  --add-data "resources;resources" \
+  --add-binary "venv\Lib\site-packages\snap7\lib\snap7.dll;snap7\lib" \
+  mh_editor.py
 ```
 
 ### Утилиты
@@ -263,7 +330,13 @@ pyinstaller --onefile --windowed --icon=resources/icon.ico mh_editor.py
 
 ## 🏷️ История версий
 
-- **v1.0.0** (2025-05-25) - Последний релиз
+- **v1.1.1** (2026-01-17) - Последний релиз
+  - Обновлен адрес ПЛК 993 (10.25.201.11 → 10.16.0.1)
+  - Добавлена подробная инструкция по сборке через auto-py-to-exe
+  - Документировано добавление snap7.dll для корректной работы .exe
+  - Улучшена документация в README.md
+
+- **v1.0.0** (2025-05-25)
   - Обновлены адреса и конфигурации ПЛК
   - Улучшена структура кода и читаемость
   - Расширены сообщения логирования для лучшей ясности
