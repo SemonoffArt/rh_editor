@@ -10,9 +10,9 @@ from datetime import datetime
 # --- Константы ---
 EQUIPS_FILE = 'equips.json'
 PLC_FILE = 'plc.json'
-VERSION = '1.1.1'
-RELEASE_DATE = '2026-01-17'
-MAX_HOURS = 20000
+VERSION = '1.2.1'
+RELEASE_DATE = '2026-03-21'
+MAX_HOURS = 50000
 
 def resource_path(relative_path):
     """Получить абсолютный путь к ресурсу (для dev и PyInstaller)."""
