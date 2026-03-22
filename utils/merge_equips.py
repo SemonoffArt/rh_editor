@@ -3,22 +3,113 @@
 Удаляет дубликаты по полю eq_name
 """
 import json
+import logging
 from pathlib import Path
+from typing import Callable, Optional
 
 
-def load_json_file(file_path):
-    """Загружает JSON файл и возвращает список equips"""
+def load_json_file(
+    file_path: Path,
+    logger: Optional[Callable[[str], None]] = None
+) -> list[dict]:
+    """
+    Загружает JSON файл и возвращает список equips.
+    
+    Args:
+        file_path: Путь к JSON файлу
+        logger: Опциональная функция для логирования (по умолчанию print)
+    
+    Returns:
+        Список словарей с данными оборудования
+    
+    Raises:
+        FileNotFoundError: Если файл не найден
+        JSONDecodeError: Если файл содержит некорректный JSON
+        PermissionError: Нет доступа к файлу
+        ValueError: Если данные не содержат ключ 'equips'
+    """
+    _log = logger if logger is not None else print
+    
+    # Normalize Path object
+    path = Path(file_path)
+    
+    # Validate file exists before attempting to open
+    if not path.exists():
+        raise FileNotFoundError(f"Файл не найден: {path}")
+    
+    if not path.is_file():
+        raise ValueError(f"Ожидался файл, получено: {path}")
+    
+    # Handle empty files
+    if path.stat().st_size == 0:
+        _log(f"ПРЕДУПРЕЖДЕНИЕ: Файл {path.name} пуст, возвращен пустой список")
+        return []
+    
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            equips = data.get('equips', [])
-            print(f"Загружено {len(equips)} записей из {file_path.name}")
-            return equips
-    except FileNotFoundError:
-        print(f"ПРЕДУПРЕЖДЕНИЕ: Файл {file_path.name} не найден, пропускаем")
+    except json.JSONDecodeError as e:
+        raise json.JSONDecodeError(
+            f"Некорректный JSON в файле {path.name}: {e.msg}",
+            e.doc,
+            e.pos
+        ) from e
+    
+    # Validate expected data structure
+    if not isinstance(data, dict):
+        raise ValueError(
+            f"Ожидался словарь в корне JSON, получен {type(data).__name__}"
+        )
+    
+    if 'equips' not in data:
+        _log(
+            f"ПРЕДУПРЕЖДЕНИЕ: Ключ 'equips' не найден в {path.name}, "
+            "возвращен пустой список"
+        )
+        return []
+    
+    equips = data['equips']
+    
+    # Validate equips is a list
+    if not isinstance(equips, list):
+        raise ValueError(
+            f"Ожидался список для 'equips', получен {type(equips).__name__}"
+        )
+    
+    _log(f"Загружено {len(equips)} записей из {path.name}")
+    return equips
+
+
+def load_json_file_safe(
+    file_path: Path,
+    logger: Optional[Callable[[str], None]] = None
+) -> list[dict]:
+    """
+    Безопасная версия load_json_file с обработкой всех исключений.
+    Возвращает пустой список при любой ошибке.
+    
+    Args:
+        file_path: Путь к JSON файлу
+        logger: Опциональная функция для логирования
+    
+    Returns:
+        Список словарей с данными оборудования (пустой список при ошибке)
+    """
+    _log = logger if logger is not None else print
+    
+    try:
+        return load_json_file(file_path, logger=_log)
+    except FileNotFoundError as e:
+        _log(f"ПРЕДУПРЕЖДЕНИЕ: {e}")
+        return []
+    except (json.JSONDecodeError, ValueError) as e:
+        _log(f"ОШИБКА валидации {Path(file_path).name}: {e}")
+        return []
+    except PermissionError as e:
+        _log(f"ОШИБКА: Нет доступа к файлу {Path(file_path).name}: {e}")
         return []
     except Exception as e:
-        print(f"ОШИБКА при чтении {file_path.name}: {e}")
+        _log(f"ОШИБКА при чтении {Path(file_path).name}: {e}")
         return []
 
 
@@ -93,7 +184,7 @@ def main():
     print(f"Результат: {output_path.name}")
     print()
     
-    # Загружаем файлы
+    # Загружаем файлы (load_json_file_safe для устойчивости, load_json_file для детальных ошибок)
     print("Шаг 1: Загрузка файлов...")
     equips1 = load_json_file(equips1_path)
     equips2 = load_json_file(equips2_path)
