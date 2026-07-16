@@ -10,8 +10,8 @@ from datetime import datetime
 # --- Константы ---
 EQUIPS_FILE = 'equips.json'
 PLC_FILE = 'plc.json'
-VERSION = '1.2.1'
-RELEASE_DATE = '2026-03-21'
+VERSION = '1.2.2'
+RELEASE_DATE = '2026-07-16'
 MAX_HOURS = 50000
 
 def resource_path(relative_path):
