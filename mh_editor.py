@@ -10,7 +10,7 @@ from datetime import datetime
 # --- Константы ---
 EQUIPS_FILE = 'equips.json'
 PLC_FILE = 'plc.json'
-VERSION = '1.3.0'
+VERSION = '1.4.0'
 RELEASE_DATE = '2026-07-17'
 MAX_HOURS = 50000
 
@@ -183,6 +183,7 @@ class MHEditor(tk.Tk):
             plc_addr, rack, slot = self.get_plc_connection_params(plc_name)
             if not plc_addr:
                 self.add_log(f"ОШИБКА: Не найдены параметры PLC для '{plc_name}' в plc.json")
+                self.hours_var.set('')
                 return
             self.add_log(f"Подключение к PLC {plc_name} {plc_addr} (rack={rack}, slot={slot})...")
             client.connect(plc_addr, rack, slot)
@@ -209,8 +210,10 @@ class MHEditor(tk.Tk):
                 self.add_log("Отключение от PLC")
             else:
                 self.add_log(f"ОШИБКА: Не удалось подключиться к PLC {plc_addr}")
+                self.hours_var.set('')
         except Exception as e:
             self.add_log(f"ОШИБКА при чтении данных: {str(e)}")
+            self.hours_var.set('')
 
     def write_plc_data(self):
         if not self.selected_equip:
