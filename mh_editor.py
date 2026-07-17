@@ -10,8 +10,8 @@ from datetime import datetime
 # --- Константы ---
 EQUIPS_FILE = 'equips.json'
 PLC_FILE = 'plc.json'
-VERSION = '1.2.2'
-RELEASE_DATE = '2026-07-16'
+VERSION = '1.3.0'
+RELEASE_DATE = '2026-07-17'
 MAX_HOURS = 50000
 
 def resource_path(relative_path):
@@ -29,7 +29,8 @@ class MHEditor(tk.Tk):
         super().__init__()
         self.title('Редактор часов тех обслуживания')
         self._set_icon()
-        self.geometry('800x600')
+        self.geometry('1280x800')
+        self.minsize(1000, 600)
         self.equips = []
         self.filtered_equips = []
         self.selected_equip = None
@@ -126,7 +127,7 @@ class MHEditor(tk.Tk):
         self.tree.delete(*self.tree.get_children())
         # Сортировка по Tag (eq_name) по возрастанию
         sorted_equips = sorted(self.filtered_equips, key=lambda eq: str(eq.get('eq_name', '')))
-        for eq in sorted_equips:
+        for i, eq in enumerate(sorted_equips):
             values = (
                 eq.get('eq_name', ''),
                 eq.get('plc_name', ''),
@@ -134,7 +135,11 @@ class MHEditor(tk.Tk):
                 eq.get('db_num', ''),
                 eq.get('db_addr', '')
             )
-            self.tree.insert('', tk.END, values=values)
+            plc = str(eq.get('plc_name', ''))
+            fg_tag = f'plc_{plc}' if f'plc_{plc}' in ('plc_990', 'plc_991', 'plc_992', 'plc_993', 'plc_994', 'plc_995', 'plc_996', 'plc_997') else ''
+            bg_tag = f'row_{i % 2}'
+            tags = tuple(filter(None, (fg_tag, bg_tag)))
+            self.tree.insert('', tk.END, values=values, tags=tags or None)
 
     # --- Выбор и действия с оборудованием ---
     def on_select(self, event):
@@ -310,25 +315,39 @@ class MHEditor(tk.Tk):
         columns = ('tag', 'plc_name', 'description', 'db_num', 'db_addr')
         table_frame = tk.Frame(self)
         table_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        style = ttk.Style()
+        style.configure("Treeview", font=("Arial", 14), rowheight=32)
+        style.configure("Treeview.Heading", font=("Arial", 12))
         self.tree = ttk.Treeview(table_frame, columns=columns, show='headings', selectmode='browse')
+        # Цвета строк по PLC
+        self.tree.tag_configure('plc_990', foreground='#2471a3')
+        self.tree.tag_configure('plc_991', foreground='#1e8449')
+        self.tree.tag_configure('plc_992', foreground='#b9770e')
+        self.tree.tag_configure('plc_993', foreground='#7d3c98')
+        self.tree.tag_configure('plc_994', foreground='#148f77')
+        self.tree.tag_configure('plc_995', foreground='#af7ac5')
+        self.tree.tag_configure('plc_996', foreground='#d35400')
+        self.tree.tag_configure('plc_997', foreground='#c0392b')
+        self.tree.tag_configure('row_0', background='#f5f5f5')
+        self.tree.tag_configure('row_1', background='#ffffff')
         vsb = tk.Scrollbar(table_frame, orient="vertical", command=self.tree.yview)
         self.tree.configure(yscrollcommand=vsb.set)
         
         # Set column headings and widths
         self.tree.heading('tag', text='tag')
-        self.tree.column('tag', width=200)  # Fit content like "020BM110A01_MAINT20_MH"
-        
-        self.tree.heading('plc_name', text='plc_name')
-        self.tree.column('plc_name', width=50)  # Header size
-        
+        self.tree.column('tag', width=350)
+
+        self.tree.heading('plc_name', text='plc')
+        self.tree.column('plc_name', width=65)
+
         self.tree.heading('description', text='description')
-        self.tree.column('description', width=300)  # 30 characters
-        
+        self.tree.column('description', width=500)
+
         self.tree.heading('db_num', text='db_num')
-        self.tree.column('db_num', width=50)  # Header size
-        
+        self.tree.column('db_num', width=70)
+
         self.tree.heading('db_addr', text='db_addr')
-        self.tree.column('db_addr', width=50)  # Header size
+        self.tree.column('db_addr', width=70)
         
         self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         vsb.pack(side=tk.RIGHT, fill=tk.Y)

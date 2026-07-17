@@ -1,6 +1,118 @@
 {
     "equips": [
         {
+            "eq_name": "020BM110A01_MAINT20_MH",
+            "plc_name": "991",
+            "db_num": 6806,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT20_MH",
+            "plc_name": "991",
+            "db_num": 6906,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT20_MH",
+            "plc_name": "991",
+            "db_num": 6706,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT21_MH",
+            "plc_name": "991",
+            "db_num": 6706,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP358U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6115,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030TK851_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6117,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT1_MH",
+            "plc_name": "991",
+            "db_num": 6701,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP351GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6023,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP352GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6024,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP357GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6025,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP358GK01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6115,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080SP530U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6037,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020MG221M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6078,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "010GG032U01_MAINT_MH",
+            "plc_name": "990",
+            "db_num": 6000,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030VS160U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6001,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030VS161M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6002,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
             "eq_name": "010BC011M01_MAINT_MH",
             "plc_name": "990",
             "db_num": 6003,
@@ -18,13 +130,6 @@
             "eq_name": "010BC015U01_MAINT_MH",
             "plc_name": "991",
             "db_num": 6005,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "010GG032U01_MAINT_MH",
-            "plc_name": "990",
-            "db_num": 6000,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
@@ -50,349 +155,6 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "020BC031U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6075,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT10_MH",
-            "plc_name": "991",
-            "db_num": 6803,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT12_MH",
-            "plc_name": "991",
-            "db_num": 6803,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT18_MH",
-            "plc_name": "991",
-            "db_num": 6805,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT19_MH",
-            "plc_name": "991",
-            "db_num": 6805,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT1_MH",
-            "plc_name": "991",
-            "db_num": 6801,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT20_MH",
-            "plc_name": "991",
-            "db_num": 6806,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT2_MH",
-            "plc_name": "991",
-            "db_num": 6801,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT4_MH",
-            "plc_name": "991",
-            "db_num": 6801,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT6_MH",
-            "plc_name": "991",
-            "db_num": 6802,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT7_MH",
-            "plc_name": "991",
-            "db_num": 6802,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT8_MH",
-            "plc_name": "991",
-            "db_num": 6802,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM110A01_MAINT9_MH",
-            "plc_name": "991",
-            "db_num": 6803,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT10_MH",
-            "plc_name": "991",
-            "db_num": 6903,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT12_MH",
-            "plc_name": "991",
-            "db_num": 6903,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT18_MH",
-            "plc_name": "991",
-            "db_num": 6905,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT19_MH",
-            "plc_name": "991",
-            "db_num": 6905,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT1_MH",
-            "plc_name": "991",
-            "db_num": 6901,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT20_MH",
-            "plc_name": "991",
-            "db_num": 6906,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT2_MH",
-            "plc_name": "991",
-            "db_num": 6901,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT4_MH",
-            "plc_name": "991",
-            "db_num": 6901,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT6_MH",
-            "plc_name": "991",
-            "db_num": 6902,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT7_MH",
-            "plc_name": "991",
-            "db_num": 6902,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT8_MH",
-            "plc_name": "991",
-            "db_num": 6902,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020BM120A01_MAINT9_MH",
-            "plc_name": "991",
-            "db_num": 6903,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020CR020A02_MAINT1_MH",
-            "plc_name": "991",
-            "db_num": 6073,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020CR020A02_MAINT2_MH",
-            "plc_name": "991",
-            "db_num": 6073,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020CR020A02_MAINT3_MH",
-            "plc_name": "991",
-            "db_num": 6073,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020CR020A02_MAINT4_MH",
-            "plc_name": "991",
-            "db_num": 6073,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020CR020A02_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6072,
-            "db_addr": 18,
-            "description": "Oil change, h"
-        },
-        {
-            "eq_name": "020MG021M01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6074,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020MG221M01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6078,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT10_MH",
-            "plc_name": "991",
-            "db_num": 6703,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT12_MH",
-            "plc_name": "991",
-            "db_num": 6703,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT18_MH",
-            "plc_name": "991",
-            "db_num": 6705,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT19_MH",
-            "plc_name": "991",
-            "db_num": 6705,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT1_MH",
-            "plc_name": "991",
-            "db_num": 6701,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT20_MH",
-            "plc_name": "991",
-            "db_num": 6706,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT21_MH",
-            "plc_name": "991",
-            "db_num": 6706,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT2_MH",
-            "plc_name": "991",
-            "db_num": 6701,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT4_MH",
-            "plc_name": "991",
-            "db_num": 6701,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT6_MH",
-            "plc_name": "991",
-            "db_num": 6702,
-            "db_addr": 22,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT7_MH",
-            "plc_name": "991",
-            "db_num": 6702,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT8_MH",
-            "plc_name": "991",
-            "db_num": 6702,
-            "db_addr": 30,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020ML060A01_MAINT9_MH",
-            "plc_name": "991",
-            "db_num": 6703,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020SJ952M01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6051,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020SJ953M01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6052,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020SJ954M01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6053,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "020SJ955M01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6054,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
             "eq_name": "020SP140U01_MAINT_MH",
             "plc_name": "991",
             "db_num": 6009,
@@ -410,6 +172,27 @@
             "eq_name": "020SP142U01_MAINT_MH",
             "plc_name": "991",
             "db_num": 6011,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030SP180U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6012,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030SP181U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6013,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030SP182U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6014,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
@@ -442,79 +225,79 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030SP180U01_MAINT_MH",
+            "eq_name": "060SP355U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6012,
+            "db_num": 6019,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030SP181U01_MAINT_MH",
+            "eq_name": "060SP356U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6013,
+            "db_num": 6020,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030SP182U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6014,
+            "eq_name": "350SP860U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6000,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030TK850_MAINT_MH",
+            "eq_name": "060SP350U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6116,
+            "db_num": 6021,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030TK851_MAINT_MH",
+            "eq_name": "060SP354U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6117,
+            "db_num": 6022,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030VS160U01_MAINT_MH",
+            "eq_name": "060SP351U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6001,
+            "db_num": 6023,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "030VS161M01_MAINT_MH",
+            "eq_name": "060SP352U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6002,
+            "db_num": 6024,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "040IL200A01_35_MAINT_MH",
+            "eq_name": "060SP357U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6076,
+            "db_num": 6025,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "040IL210A01_44_MAINT_MH",
+            "eq_name": "050PU270U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6077,
+            "db_num": 6026,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "040SP815U01_MAINT_MH",
+            "eq_name": "050PU271U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6058,
+            "db_num": 6027,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "040SP816U01_MAINT_MH",
+            "eq_name": "050PU273U01_MAINT_MH",
             "plc_name": "991",
-            "db_num": 6059,
+            "db_num": 6028,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
@@ -631,6 +414,13 @@
             "description": "Maintenance, h"
         },
         {
+            "eq_name": "350SP861U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6001,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
             "eq_name": "050FL260M03_MAINT_MH",
             "plc_name": "991",
             "db_num": 6045,
@@ -666,139 +456,6 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "050PU270U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6026,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "050PU271U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6027,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "050PU272U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6067,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "050PU273U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6028,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "050PU274U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6068,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP350U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6021,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP351GK01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6023,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP351U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6023,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP352GK01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6024,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP352U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6024,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP354U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6022,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP355U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6019,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP356U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6020,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP357GK01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6025,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP357U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6025,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP358GK01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6115,
-            "db_addr": 26,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP358U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6115,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP362U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6069,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "060SP363U01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6070,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
             "eq_name": "060TN340A01_MAINT_MH",
             "plc_name": "991",
             "db_num": 6050,
@@ -806,9 +463,44 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "060TN341A01_MAINT_MH",
-            "plc_name": "991",
-            "db_num": 6118,
+            "eq_name": "350SP862U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6002,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350SP863U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6003,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350SP866U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6004,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350SP867U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6005,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350SP870U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6006,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350SP871U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6007,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
@@ -883,16 +575,387 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080HT528_MAINT_MH",
+            "eq_name": "350AG900M01_MAINT_MH",
             "plc_name": "992",
-            "db_num": 6039,
+            "db_num": 6018,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080PU527U01_MAINT_MH",
+            "eq_name": "350AG901M01_MAINT_MH",
             "plc_name": "992",
-            "db_num": 6050,
+            "db_num": 6019,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350AG902M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6020,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350AG903M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6021,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350AG904M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6022,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350AG905M01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6023,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080TN450A01_MAINT_1_MH",
+            "plc_name": "992",
+            "db_num": 6024,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080TN590A01_MAINT_1_MH",
+            "plc_name": "992",
+            "db_num": 6026,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080TN450A01_MAINT_2_MH",
+            "plc_name": "992",
+            "db_num": 6024,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080TN590A01_MAINT_2_MH",
+            "plc_name": "992",
+            "db_num": 6026,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT18_MH",
+            "plc_name": "991",
+            "db_num": 6705,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "090KL645A01S03_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6028,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT2_MH",
+            "plc_name": "991",
+            "db_num": 6701,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT4_MH",
+            "plc_name": "991",
+            "db_num": 6701,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT6_MH",
+            "plc_name": "991",
+            "db_num": 6702,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT7_MH",
+            "plc_name": "991",
+            "db_num": 6702,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT8_MH",
+            "plc_name": "991",
+            "db_num": 6702,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT9_MH",
+            "plc_name": "991",
+            "db_num": 6703,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT10_MH",
+            "plc_name": "991",
+            "db_num": 6703,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT1_MH",
+            "plc_name": "991",
+            "db_num": 6801,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT2_MH",
+            "plc_name": "991",
+            "db_num": 6801,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT4_MH",
+            "plc_name": "991",
+            "db_num": 6801,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT6_MH",
+            "plc_name": "991",
+            "db_num": 6802,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT7_MH",
+            "plc_name": "991",
+            "db_num": 6802,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT8_MH",
+            "plc_name": "991",
+            "db_num": 6802,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT9_MH",
+            "plc_name": "991",
+            "db_num": 6803,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT10_MH",
+            "plc_name": "991",
+            "db_num": 6803,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT1_MH",
+            "plc_name": "991",
+            "db_num": 6901,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT2_MH",
+            "plc_name": "991",
+            "db_num": 6901,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT4_MH",
+            "plc_name": "991",
+            "db_num": 6901,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT6_MH",
+            "plc_name": "991",
+            "db_num": 6902,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT7_MH",
+            "plc_name": "991",
+            "db_num": 6902,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT8_MH",
+            "plc_name": "991",
+            "db_num": 6902,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT9_MH",
+            "plc_name": "991",
+            "db_num": 6903,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT10_MH",
+            "plc_name": "991",
+            "db_num": 6903,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020ML060A01_MAINT12_MH",
+            "plc_name": "991",
+            "db_num": 6703,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT12_MH",
+            "plc_name": "991",
+            "db_num": 6803,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT12_MH",
+            "plc_name": "991",
+            "db_num": 6903,
+            "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP362U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6069,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060SP363U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6070,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "040SP816U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6059,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020SJ952M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6051,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020SJ953M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6052,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020SJ954M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6053,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020SJ955M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6054,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BC031U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6075,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020CR020A02_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6072,
+            "db_addr": 18,
+            "description": "Oil change, h"
+        },
+        {
+            "eq_name": "050PU272U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6067,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "050PU274U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6068,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "040IL200A01_35_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6076,
+            "db_addr": 18,
+            "description": "PP03 Maintenance, h"
+        },
+        {
+            "eq_name": "040IL210A01_44_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6077,
+            "db_addr": 18,
+            "description": "PP103 Maintenance, h"
+        },
+        {
+            "eq_name": "905RP100A01_119MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6029,
+            "db_addr": 18,
+            "description": "PP103 Maintenance, h"
+        },
+        {
+            "eq_name": "905RP100A01_120MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6030,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "905RP100A01_117MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6031,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "905RP100A01_118MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6032,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
@@ -911,20 +974,6 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080SP530U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6037,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "080SP580U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6038,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
             "eq_name": "080SP600U01_MAINT_MH",
             "plc_name": "992",
             "db_num": 6035,
@@ -939,17 +988,73 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080TN450A01_MAINT_1_MH",
-            "plc_name": "992",
-            "db_num": 6024,
+            "eq_name": "020CR020A02_MAINT1_MH",
+            "plc_name": "991",
+            "db_num": 6073,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080TN450A01_MAINT_2_MH",
+            "eq_name": "020CR020A02_MAINT2_MH",
+            "plc_name": "991",
+            "db_num": 6073,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020CR020A02_MAINT3_MH",
+            "plc_name": "991",
+            "db_num": 6073,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080SP580U01_MAINT_MH",
             "plc_name": "992",
-            "db_num": 6024,
+            "db_num": 6038,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "040SP815U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6058,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020CR020A02_MAINT4_MH",
+            "plc_name": "991",
+            "db_num": 6073,
             "db_addr": 30,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "080HT528_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6039,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "030TK850_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6116,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020MG021M01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6074,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "060TN341A01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6118,
+            "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
@@ -960,23 +1065,58 @@
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080TN590A01_MAINT_1_MH",
+            "eq_name": "350SP868U01_MAINT_MH",
             "plc_name": "992",
-            "db_num": 6026,
+            "db_num": 6067,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "080TN590A01_MAINT_2_MH",
-            "plc_name": "992",
-            "db_num": 6026,
-            "db_addr": 30,
+            "eq_name": "020ML060A01_MAINT19_MH",
+            "plc_name": "991",
+            "db_num": 6705,
+            "db_addr": 26,
             "description": "Maintenance, h"
         },
         {
-            "eq_name": "090KL645A01S03_MAINT_MH",
+            "eq_name": "080PU527U01_MAINT_MH",
             "plc_name": "992",
-            "db_num": 6028,
+            "db_num": 6050,
+            "db_addr": 18,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT18_MH",
+            "plc_name": "991",
+            "db_num": 6805,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM110A01_MAINT19_MH",
+            "plc_name": "991",
+            "db_num": 6805,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT18_MH",
+            "plc_name": "991",
+            "db_num": 6905,
+            "db_addr": 22,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "020BM120A01_MAINT19_MH",
+            "plc_name": "991",
+            "db_num": 6905,
+            "db_addr": 26,
+            "description": "Maintenance, h"
+        },
+        {
+            "eq_name": "350SP869U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6068,
             "db_addr": 18,
             "description": "Maintenance, h"
         },
@@ -1100,6 +1240,13 @@
             "description": "BC023U01 Счетчик ТО"
         },
         {
+            "eq_name": "2020BM110A01Maint_1_MH",
+            "plc_name": "993",
+            "db_num": 8057,
+            "db_addr": 18,
+            "description": "BM110A01 Maint_1_MH"
+        },
+        {
             "eq_name": "2020BM110A01Maint_10_MH",
             "plc_name": "993",
             "db_num": 8059,
@@ -1126,13 +1273,6 @@
             "db_num": 8060,
             "db_addr": 22,
             "description": "BM110 Maint_14_MH Замена футеровки "
-        },
-        {
-            "eq_name": "2020BM110A01Maint_1_MH",
-            "plc_name": "993",
-            "db_num": 8057,
-            "db_addr": 18,
-            "description": "BM110A01 Maint_1_MH"
         },
         {
             "eq_name": "2020BM110A01Maint_2_MH",
@@ -1191,6 +1331,41 @@
             "description": "BM110A01 Maint_9_MH"
         },
         {
+            "eq_name": "2020BM110GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8121,
+            "db_addr": 18,
+            "description": "BM110GK01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020BM110GK02A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8123,
+            "db_addr": 18,
+            "description": "BM110GK01 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2020BM110GK02A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8123,
+            "db_addr": 22,
+            "description": "BM110GK01 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2020BM110GK02A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8123,
+            "db_addr": 26,
+            "description": "BM110GK01 Счетчик ТО3"
+        },
+        {
+            "eq_name": "2020BM120A01Maint_1_MH",
+            "plc_name": "993",
+            "db_num": 8061,
+            "db_addr": 18,
+            "description": "BM11 Maint_1_MH"
+        },
+        {
             "eq_name": "2020BM120A01Maint_10_MH",
             "plc_name": "993",
             "db_num": 8063,
@@ -1217,13 +1392,6 @@
             "db_num": 8064,
             "db_addr": 22,
             "description": "BM110 Maint_14_MH Замена футеровки "
-        },
-        {
-            "eq_name": "2020BM120A01Maint_1_MH",
-            "plc_name": "993",
-            "db_num": 8061,
-            "db_addr": 18,
-            "description": "BM11 Maint_1_MH"
         },
         {
             "eq_name": "2020BM120A01Maint_2_MH",
@@ -1280,6 +1448,34 @@
             "db_num": 8063,
             "db_addr": 18,
             "description": "BM11 Maint_9_MH"
+        },
+        {
+            "eq_name": "2020BM120GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8122,
+            "db_addr": 18,
+            "description": "BM120GK01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020BM120GK02A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8124,
+            "db_addr": 18,
+            "description": "BM120GK01 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2020BM120GK02A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8124,
+            "db_addr": 22,
+            "description": "BM120GK01 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2020BM120GK02A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8124,
+            "db_addr": 26,
+            "description": "BM120GK01 Счетчик ТО3"
         },
         {
             "eq_name": "2020MC150Y01Maint_MH_1",
@@ -2269,6 +2465,13 @@
             "description": "MG021M01 Счетчик ТО"
         },
         {
+            "eq_name": "2020ML060A01Maint_1_MH",
+            "plc_name": "993",
+            "db_num": 8053,
+            "db_addr": 18,
+            "description": "ML060A01 Часы наработки_1_MH"
+        },
+        {
             "eq_name": "2020ML060A01Maint_10_MH",
             "plc_name": "993",
             "db_num": 8055,
@@ -2302,13 +2505,6 @@
             "db_num": 8056,
             "db_addr": 26,
             "description": "ML060 Часы наработки_15_MH  загруз торец"
-        },
-        {
-            "eq_name": "2020ML060A01Maint_1_MH",
-            "plc_name": "993",
-            "db_num": 8053,
-            "db_addr": 18,
-            "description": "ML060A01 Часы наработки_1_MH"
         },
         {
             "eq_name": "2020ML060A01Maint_2_MH",
@@ -2381,6 +2577,20 @@
             "description": "SJ953M01 Счетчик ТО"
         },
         {
+            "eq_name": "2020SP140_142GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8113,
+            "db_addr": 18,
+            "description": "SP140_142GK01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020SP140GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8110,
+            "db_addr": 18,
+            "description": "SP140GK01 Счетчик ТО"
+        },
+        {
             "eq_name": "2020SP140U01Maint_MH",
             "plc_name": "993",
             "db_num": 8023,
@@ -2393,6 +2603,20 @@
             "db_num": 8023,
             "db_addr": 22,
             "description": "SP140U01 Счетчик ТО_2"
+        },
+        {
+            "eq_name": "2020SP141_142GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8114,
+            "db_addr": 18,
+            "description": "SP140_142GK01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020SP141GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8111,
+            "db_addr": 18,
+            "description": "SP141GK01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP141U01Maint_MH",
@@ -2409,6 +2633,13 @@
             "description": "SP141U01 Счетчик ТО_2"
         },
         {
+            "eq_name": "2020SP142GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8112,
+            "db_addr": 18,
+            "description": "SP142GK01 Счетчик ТО"
+        },
+        {
             "eq_name": "2020SP142U01Maint_MH",
             "plc_name": "993",
             "db_num": 8025,
@@ -2423,11 +2654,39 @@
             "description": "SP142U01 Счетчик ТО_2"
         },
         {
+            "eq_name": "2020SP840_842GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8117,
+            "db_addr": 18,
+            "description": "SP840_842GK01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020SP840GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8115,
+            "db_addr": 18,
+            "description": "SP840GK01 Счетчик ТО"
+        },
+        {
             "eq_name": "2020SP840U01Maint_MH",
             "plc_name": "993",
             "db_num": 8029,
             "db_addr": 18,
             "description": "SP840U01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020SP841_843GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8118,
+            "db_addr": 18,
+            "description": "SP841_843GK01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020SP841GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8119,
+            "db_addr": 18,
+            "description": "SP841GK01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP841U01Maint_MH",
@@ -2437,11 +2696,25 @@
             "description": "SP841U01 Счетчик ТО"
         },
         {
+            "eq_name": "2020SP842GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8116,
+            "db_addr": 18,
+            "description": "SP840GK01 Счетчик ТО"
+        },
+        {
             "eq_name": "2020SP842U01Maint_MH",
             "plc_name": "993",
             "db_num": 8031,
             "db_addr": 18,
             "description": "SP842U01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2020SP843GK01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8120,
+            "db_addr": 18,
+            "description": "SP843GK01 Счетчик ТО"
         },
         {
             "eq_name": "2020SP843U01Maint_MH",
@@ -2472,11 +2745,53 @@
             "description": "SP182U01 Счетчик ТО"
         },
         {
+            "eq_name": "2030TK850GK01A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8129,
+            "db_addr": 18,
+            "description": "TK850GK01 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2030TK850GK01A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8129,
+            "db_addr": 22,
+            "description": "TK850GK01 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2030TK850GK01A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8129,
+            "db_addr": 26,
+            "description": "TK850GK01 Счетчик ТО3"
+        },
+        {
             "eq_name": "2030TK850Maint_MH",
             "plc_name": "993",
             "db_num": 8089,
             "db_addr": 18,
             "description": "Distributor, Slurry Flow Счетчик ТО"
+        },
+        {
+            "eq_name": "2030TK851GK01A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8130,
+            "db_addr": 18,
+            "description": "TK851GK01 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2030TK851GK01A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8130,
+            "db_addr": 22,
+            "description": "TK851GK01 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2030TK851GK01A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8130,
+            "db_addr": 26,
+            "description": "TK851GK01 Счетчик ТО3"
         },
         {
             "eq_name": "2030TK851Maint_MH",
@@ -2486,11 +2801,95 @@
             "description": "Distributor, Slurry Flow Счетчик ТО"
         },
         {
+            "eq_name": "2030VS160GK01A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8125,
+            "db_addr": 18,
+            "description": "VS160GK01 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2030VS160GK01A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8125,
+            "db_addr": 22,
+            "description": "VS160GK01 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2030VS160GK01A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8125,
+            "db_addr": 26,
+            "description": "VS160GK01 Счетчик ТО3"
+        },
+        {
+            "eq_name": "2030VS160GK02A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8126,
+            "db_addr": 18,
+            "description": "VS160GK02 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2030VS160GK02A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8126,
+            "db_addr": 22,
+            "description": "VS160GK02 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2030VS160GK02A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8126,
+            "db_addr": 26,
+            "description": "VS160GK02 Счетчик ТО3"
+        },
+        {
             "eq_name": "2030VS160M01Maint_MH",
             "plc_name": "993",
             "db_num": 8002,
             "db_addr": 18,
             "description": "VS160M01 Счетчик ТО"
+        },
+        {
+            "eq_name": "2030VS161GK01A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8127,
+            "db_addr": 18,
+            "description": "VS161GK01 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2030VS161GK01A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8127,
+            "db_addr": 22,
+            "description": "VS161GK01 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2030VS161GK01A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8127,
+            "db_addr": 26,
+            "description": "VS161GK01 Счетчик ТО3"
+        },
+        {
+            "eq_name": "2030VS161GK02A01Maint_MH",
+            "plc_name": "993",
+            "db_num": 8128,
+            "db_addr": 18,
+            "description": "VS161GK02 Счетчик ТО1"
+        },
+        {
+            "eq_name": "2030VS161GK02A02Maint_MH",
+            "plc_name": "993",
+            "db_num": 8128,
+            "db_addr": 22,
+            "description": "VS161GK02 Счетчик ТО2"
+        },
+        {
+            "eq_name": "2030VS161GK02A03Maint_MH",
+            "plc_name": "993",
+            "db_num": 8128,
+            "db_addr": 26,
+            "description": "VS161GK02 Счетчик ТО3"
         },
         {
             "eq_name": "2030VS161M01Maint_MH",
@@ -2735,35 +3134,35 @@
             "plc_name": "993",
             "db_num": 8049,
             "db_addr": 18,
-            "description": "FL260M01 Счетчик ТО"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL260M02Maint_MH",
             "plc_name": "993",
             "db_num": 8050,
             "db_addr": 18,
-            "description": "FL260M02 Счетчик ТО"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL260M03Maint_MH",
             "plc_name": "993",
             "db_num": 8051,
             "db_addr": 18,
-            "description": "FL260M03 Счетчик ТО"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL260M04Maint_MH",
             "plc_name": "993",
             "db_num": 8052,
             "db_addr": 18,
-            "description": "FL260M04 Счетчик ТО"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050FL260M05Maint_MH",
             "plc_name": "993",
             "db_num": 8088,
             "db_addr": 18,
-            "description": "FL260M05 Счетчик ТО"
+            "description": "Смазка подшипника"
         },
         {
             "eq_name": "2050PU262U01Maint_MH",
@@ -3158,14 +3557,14 @@
             "description": "AG505M01 Счетчик ТО"
         },
         {
-            "eq_name": "2080AG506M01Maint_MH",
+            "eq_name": "2080AG506U01Maint_MH",
             "plc_name": "994",
             "db_num": 8008,
             "db_addr": 18,
             "description": "AG506M01 Счетчик ТО"
         },
         {
-            "eq_name": "2080AG507M01Maint_MH",
+            "eq_name": "2080AG507U01Maint_MH",
             "plc_name": "994",
             "db_num": 8009,
             "db_addr": 18,
@@ -3323,28 +3722,28 @@
             "plc_name": "994",
             "db_num": 8024,
             "db_addr": 18,
-            "description": "SP860U01 Счетчик ТО"
+            "description": "Ревизия насоса"
         },
         {
             "eq_name": "2350SP861U01Maint_MH",
             "plc_name": "994",
             "db_num": 8025,
             "db_addr": 18,
-            "description": "SP861U01 Счетчик ТО"
+            "description": "Ревизия насоса"
         },
         {
             "eq_name": "2350SP864U01Maint_MH",
             "plc_name": "994",
             "db_num": 8026,
             "db_addr": 18,
-            "description": "SP864U01 Счетчик ТО"
+            "description": "Ревизия насоса"
         },
         {
             "eq_name": "2350SP865U01Maint_MH",
             "plc_name": "994",
             "db_num": 8027,
             "db_addr": 18,
-            "description": "SP865U01 Счетчик ТО"
+            "description": "Ревизия насоса"
         },
         {
             "eq_name": "2900AG910A01M01Maint_MH",
@@ -3445,146 +3844,6 @@
             "description": "AG605A01M01 Счетчик ТО"
         },
         {
-            "eq_name": "350AG900M01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6018,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350AG901M01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6019,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350AG902M01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6020,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350AG903M01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6021,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350AG904M01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6022,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350AG905M01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6023,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP860U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6000,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP861U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6001,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP862U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6002,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP863U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6003,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP866U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6004,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP867U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6005,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP868U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6067,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP869U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6068,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP870U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6006,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "350SP871U01_MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6007,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "905RP100A01_117MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6031,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "905RP100A01_118MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6032,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "905RP100A01_119MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6029,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-        {
-            "eq_name": "905RP100A01_120MAINT_MH",
-            "plc_name": "992",
-            "db_num": 6030,
-            "db_addr": 18,
-            "description": "Maintenance, h"
-        },
-		       {
             "eq_name": "020SP140GK01_MAINT_MH",
             "plc_name": "991",
             "db_num": 6009,
@@ -3807,6 +4066,49 @@
             "db_num": 6120,
             "db_addr": 22,
             "description": "Гофра SP181_182(распред.)"
-        }
+        },
+		{
+            "eq_name": "065PU887U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6040,
+            "db_addr": 18,
+            "description": "Gland Water"
+        },
+		{
+            "eq_name": "065PU888U01_MAINT_MH",
+            "plc_name": "992",
+            "db_num": 6041,
+            "db_addr": 18,
+            "description": "Gland Water MH"
+        },		
+		{
+            "eq_name": "065PU889U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6106,
+            "db_addr": 18,
+            "description": "MH"
+        },
+		{
+            "eq_name": "065PU890U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6107,
+            "db_addr": 18,
+            "description": "MH"
+        },
+		{
+            "eq_name": "060PU712U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6108,
+            "db_addr": 18,
+            "description": "MH"
+        },
+		{
+            "eq_name": "060PU713U01_MAINT_MH",
+            "plc_name": "991",
+            "db_num": 6109,
+            "db_addr": 18,
+            "description": "MH"
+        }		
+				
     ]
 }
