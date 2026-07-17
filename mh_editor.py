@@ -148,7 +148,6 @@ class MHEditor(tk.Tk):
             item = self.tree.item(selection[0])
             values = item['values']
             self.add_log(f"Выбрано оборудование: {values[0]}")
-            # Find the selected equipment in filtered list
             for eq in self.filtered_equips:
                 if eq.get('eq_name', '') == values[0]:
                     self.selected_equip = eq
@@ -304,6 +303,7 @@ class MHEditor(tk.Tk):
         self.filter_var.trace_add('write', self.on_filter_change)
         filter_entry = tk.Entry(filter_frame, textvariable=self.filter_var, font=("Arial", 16))
         filter_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
+        filter_entry.focus_set()
 
         self.help_button = tk.Button(
             filter_frame, text="?", command=self.show_help,
@@ -372,21 +372,24 @@ class MHEditor(tk.Tk):
         )
         self.result_entry.pack(side=tk.LEFT, padx=(0, 20))
 
-        tk.Label(button_frame, text="Часы: ", font=("Arial", 16, "bold")).pack(side=tk.LEFT, padx=(20, 5))
+        right_group = tk.Frame(button_frame)
+        right_group.pack(side=tk.RIGHT, padx=(20, 0))
+
+        tk.Label(right_group, text="Часы: ", font=("Arial", 16, "bold")).pack(side=tk.LEFT)
         self.hours_var = tk.StringVar()
         vcmd = (self.register(self.validate_hours), '%P')
         self.hours_entry = tk.Entry(
-            button_frame, textvariable=self.hours_var,
+            right_group, textvariable=self.hours_var,
             font=("Arial", 20, "bold"), width=10,
             validate='key', validatecommand=vcmd
         )
         self.hours_entry.pack(side=tk.LEFT, padx=5)
 
         self.write_button = tk.Button(
-            button_frame, text="WRITE", command=self.write_plc_data,
+            right_group, text="WRITE", command=self.write_plc_data,
             bg="red", fg="white", font=("Arial", 16, "bold"), height=1, width=6
         )
-        self.write_button.pack(side=tk.RIGHT, padx=(0, 18))
+        self.write_button.pack(side=tk.LEFT, padx=(10, 17))
 
     def _create_log_area(self):
         log_frame = tk.Frame(self)
