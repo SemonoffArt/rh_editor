@@ -29,7 +29,7 @@ class MHEditor(tk.Tk):
         super().__init__()
         self.title('Редактор часов тех обслуживания')
         self._set_icon()
-        self.geometry('1280x800')
+        self.geometry('1000x600')
         self.minsize(1000, 600)
         self.equips = []
         self.filtered_equips = []
@@ -276,8 +276,8 @@ class MHEditor(tk.Tk):
         description = (
             f"Редактор часов тех обслуживания ЗИФ 1 и 2\n\n"
             f"Версия: {VERSION}\nДата релиза: {RELEASE_DATE}\n\n"
-            "Список оборудования с именами тегов и адресами DBxx.DBDxx хранится в файле equips.json\n\n"
-            "IP адреса ПЛК и настройки подключения хранятся в файле plc.json.\n\n"
+            # "Список оборудования с именами тегов и адресами DBxx.DBDxx хранится в файле equips.json\n\n"
+            # "IP адреса ПЛК и настройки подключения хранятся в файле plc.json.\n\n"
             "Github: https://github.com/semonoff/rh_editor\n"
             "semonoff@gmail.com \n"
             "7Art 2025\n"
@@ -335,19 +335,19 @@ class MHEditor(tk.Tk):
         
         # Set column headings and widths
         self.tree.heading('tag', text='tag')
-        self.tree.column('tag', width=350)
+        self.tree.column('tag', width=300)
 
         self.tree.heading('plc_name', text='plc')
-        self.tree.column('plc_name', width=65)
+        self.tree.column('plc_name', width=50)
 
         self.tree.heading('description', text='description')
-        self.tree.column('description', width=500)
+        self.tree.column('description', width=400)
 
         self.tree.heading('db_num', text='db_num')
-        self.tree.column('db_num', width=70)
+        self.tree.column('db_num', width=50)
 
         self.tree.heading('db_addr', text='db_addr')
-        self.tree.column('db_addr', width=70)
+        self.tree.column('db_addr', width=50)
         
         self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         vsb.pack(side=tk.RIGHT, fill=tk.Y)
